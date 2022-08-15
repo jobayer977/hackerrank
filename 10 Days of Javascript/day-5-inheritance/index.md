@@ -1,3 +1,13 @@
+---
+title: Day 5 Inheritance
+Problem: https://www.hackerrank.com/challenges/js10-inheritance/problem?isFullScreen=true
+---
+
+## [Day 5 Inheritance](https://www.hackerrank.com/challenges/js10-inheritance/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
 class Rectangle {
 	constructor(w, h) {
 		this.w = w
@@ -18,3 +28,4 @@ class Square extends Rectangle {
 		super(w, w)
 	}
 }
+```
