@@ -16,5 +16,5 @@ ref: https://www.hackerrank.com/challenges/js10-throw/problem?isFullScreen=true
   }
   ```
   
-**Explanation**
+### **Explanation**
 The if statement checks if 'a' is greater than 0. If it is, the function returns 'YES'. If 'a' is 0, the function throws an error with the message 'Zero Error'. If 'a' is less than 0, the function throws an error with the message 'Negative Error'. The else statement is not needed because the function will never reach the else statement if 'a' is 0 or greater than 0.
