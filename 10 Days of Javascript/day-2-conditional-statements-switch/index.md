@@ -1,6 +1,6 @@
 ---
 title:  Day 2 Conditional Statements: Switch
-ref: https://www.hackerrank.com/challenges/js10-if-else/problem?isFullScreen=true
+Problem: https://www.hackerrank.com/challenges/js10-if-else/problem?isFullScreen=true
 ---
 ## [Day 2 Conditional Statements: Switch](https://www.hackerrank.com/challenges/js10-if-else/problem?isFullScreen=true)
 

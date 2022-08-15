@@ -1,6 +1,6 @@
 ---
 title:  Day 0 Hello, World!
-ref: https://www.hackerrank.com/challenges/js10-objects/problem?isFullScreen=true
+Problem: https://www.hackerrank.com/challenges/js10-objects/problem?isFullScreen=true
 ---
 
 ## [Day 0: Hello, World!](https://www.hackerrank.com/challenges/js10-objects/problem?isFullScreen=true)

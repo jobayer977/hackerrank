@@ -1,6 +1,6 @@
 ---
 title:  Day 3 Arrays
-ref: https://www.hackerrank.com/challenges/js10-arrays/problem?isFullScreen=true
+Problem: https://www.hackerrank.com/challenges/js10-arrays/problem?isFullScreen=true
 ---
 ## [Day 3 Arrays](https://www.hackerrank.com/challenges/js10-arrays/problem?isFullScreen=true)
 

@@ -1,6 +1,6 @@
 ---
 title:  Day 0 Data Types
-ref: https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true
+Problem: https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true
 ---
 ## [Day 0 Data Types](https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true)
 

@@ -1,6 +1,6 @@
 ---
 title:  Day 3 Throw
-ref: https://www.hackerrank.com/challenges/js10-throw/problem?isFullScreen=true
+Problem: https://www.hackerrank.com/challenges/js10-throw/problem?isFullScreen=true
 ---
 ## [Day 3 Throw](https://www.hackerrank.com/challenges/js10-throw/problem?isFullScreen=true)
 
