@@ -4,6 +4,7 @@ Problem: https://www.hackerrank.com/challenges/js10-objects/problem?isFullScreen
 ---
 
 ## [Day 0: Hello, World!](https://www.hackerrank.com/challenges/js10-objects/problem?isFullScreen=true)
+### **Answer:**
 
  ```js
     function greeting(parameterVariable) {

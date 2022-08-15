@@ -4,6 +4,8 @@ Problem: https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScr
 ---
 ## [Day 0 Data Types](https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true)
 
+### **Answer:**
+
  ```js
    function performOperation(secondInteger, secondDecimal, secondString) {
     const firstInteger = 4

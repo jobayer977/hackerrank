@@ -3,6 +3,7 @@ title:  Day 3 Throw
 Problem: https://www.hackerrank.com/challenges/js10-throw/problem?isFullScreen=true
 ---
 ## [Day 3 Throw](https://www.hackerrank.com/challenges/js10-throw/problem?isFullScreen=true)
+### **Answer:**
 
  ```js
    function isPositive(a) {
