@@ -23,7 +23,8 @@
 - ### [30 Days of Code](#30-days-of-code)
    - [Day 0 of 30 Hello World](#day-0-of-30-hello-world)
 - ### [The HackerRank Interview Preparation Kit ](#the-hackerrank-interview-preparation-kit)
-   - [Warm-up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
+   - [Warm up Challenges Counting Valleys](#warm-up-challenges-counting-valleys)
+   - [Warm up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
   <br/><br/><br/><br/> 
 
  # 10 Days of Javascript
@@ -546,7 +547,32 @@ processData('Welcome to 30 Days of Code!')
 # The HackerRank Interview Preparation Kit 
  
  
-## [Warm-up Challenges Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
+## [Warm up Challenges Sales by Match](https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
+
+### **Answer:**
+
+```js
+function countingValleys(steps, path) {
+	let valleys = 0
+	let level = 0
+	for (const key in path) {
+		const item = path[key]
+		if (item === 'D') {
+			level--
+			if (level === -1) valleys++
+		} else {
+			level++
+		}
+	}
+	return valleys
+}
+countingValleys(8, 'UDDDUDUU')
+```
+ 
+
+   
+ 
+## [Warm up Challenges Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
 
 ### **Answer:**
 
