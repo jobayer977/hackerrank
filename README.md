@@ -19,6 +19,7 @@
    - [Day 5 Inheritance](#day-5-inheritance)
    - [Day 5 Template Literals](#day-5-template-literals)
    - [Day 6 JavaScript Dates](#day-6-javascript-dates)
+   - [Day 7 Regular Expressions II](#day-7-regular-expressions-ii)
   <br/><br/><br/><br/> 
 
  # 10 Days of Javascript
@@ -499,5 +500,20 @@ function getDayName(dateString) {
 
 console.log(getDayName('10/11/2009')) // Sunday
 ```
+ 
+
+   
+ 
+## [Day 7 Regular Expressions II](https://www.hackerrank.com/challenges/js10-regexp-2/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
+function regexVar() {
+	return new RegExp(/^(Mr\.|Mrs\.|Ms\.|Dr\.|Er\.)[a-zA-Z]+$/)
+}
+```
+
+<!-- ### **Explanation** -->
  
 
