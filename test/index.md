@@ -1,12 +1,14 @@
 ---
-title:  xxxxxxxxxx
+title: xxxxxxxxxx
 Problem: yyyyyyyyyyyyyyyy
 ---
+
 ## [xxxxxxxxxx](yyyyyyyyyyyyyyyy)
+
 ### **Answer:**
 
- ```js
-   cccccccccccccccc
-  ```
-  
-### **Explanation**
+```js
+cccccccccccccccc
+```
+
+<!-- ### **Explanation** -->

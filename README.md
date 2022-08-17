@@ -18,6 +18,7 @@
    - [Day 5 Arrow Functions](#day-5-arrow-functions)
    - [Day 5 Inheritance](#day-5-inheritance)
    - [Day 5 Template Literals](#day-5-template-literals)
+   - [Day 6 JavaScript Dates](#day-6-javascript-dates)
   <br/><br/><br/><br/> 
 
  # 10 Days of Javascript
@@ -456,6 +457,47 @@ function sides(literals, ...expressions) {
 
  return [(p - value) / 4, (p + value) / 4]
 }
+```
+ 
+
+   
+ 
+## [Day 6 JavaScript Dates](https://www.hackerrank.com/challenges/js10-date/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
+function getDayName(dateString) {
+	let dayName
+	let date = new Date(dateString)
+	switch (date.getDay()) {
+		case 0:
+			dayName = 'Sunday'
+			break
+		case 1:
+			dayName = 'Monday'
+			break
+		case 2:
+			dayName = 'Tuesday'
+			break
+		case 3:
+			dayName = 'Wednesday'
+			break
+		case 4:
+			dayName = 'Thursday'
+			break
+		case 5:
+			dayName = 'Friday'
+			break
+		case 6:
+			dayName = 'Saturday'
+			break
+	}
+
+	return dayName
+}
+
+console.log(getDayName('10/11/2009')) // Sunday
 ```
  
 
