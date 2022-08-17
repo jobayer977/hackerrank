@@ -21,5 +21,3 @@ function modifyArray(nums) {
 
 console.log(modifyArray([1, 2, 3, 4, 5])) //  [3, 4, 9, 8, 15]
 ```
-
-### **Explanation**

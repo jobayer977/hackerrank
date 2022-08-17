@@ -119,34 +119,32 @@ The function is recursive. It calls itself until it reaches the base case. In th
    
 
    
- ## [Day 2 Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else/problem?isFullScreen=true)
+ 
+## [Day 2 Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else/problem?isFullScreen=true)
 
 ### **Answer:**
 
- ```js
-   function getGrade(score) {
-	   let grade
-    if (25 < score && score <= 30) {
-        grade = 'A'
-      } else if (20 < score && score <= 25) {
-        grade = 'B'
-      } else if (15 < score && score <= 20) {
-        grade = 'C'
-      } else if (10 < score && score <= 15) {
-        grade = 'D'
-      } else if (5 < score && score <= 10) {
-        grade = 'E'
-      } else if (0 <= score && score <= 5) {
-        grade = 'F'
-      } else {
-        grade = 'Invalid score'
-      }
-    return grade
-  }
-
-  ```
-  
-### **Explanation**
+```js
+function getGrade(score) {
+	let grade
+	if (25 < score && score <= 30) {
+		grade = 'A'
+	} else if (20 < score && score <= 25) {
+		grade = 'B'
+	} else if (15 < score && score <= 20) {
+		grade = 'C'
+	} else if (10 < score && score <= 15) {
+		grade = 'D'
+	} else if (5 < score && score <= 10) {
+		grade = 'E'
+	} else if (0 <= score && score <= 5) {
+		grade = 'F'
+	} else {
+		grade = 'Invalid score'
+	}
+	return grade
+}
+```
  
 
    
@@ -280,24 +278,22 @@ The if statement checks if 'a' is greater than 0. If it is, the function returns
  
 
    
- ## [Day 4 Classes](https://www.hackerrank.com/challenges/js10-class/problem?isFullScreen=true)
+ 
+## [Day 4 Classes](https://www.hackerrank.com/challenges/js10-class/problem?isFullScreen=true)
 
 ### **Answer:**
 
- ```js
-   class Polygon {
-    constructor(sides) {
-      this.sides = sides
-    }
+```js
+class Polygon {
+	constructor(sides) {
+		this.sides = sides
+	}
 
-    getPerimeter() {
-      return this.sides.reduce((a, b) => a + b)
-    }
-  }
-
-  ```
-  
-### **Explanation**
+	getPerimeter() {
+		return this.sides.reduce((a, b) => a + b)
+	}
+}
+```
  
 
    
@@ -416,8 +412,6 @@ function modifyArray(nums) {
 
 console.log(modifyArray([1, 2, 3, 4, 5])) //  [3, 4, 9, 8, 15]
 ```
-
-### **Explanation**
  
 
    
