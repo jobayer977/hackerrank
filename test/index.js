@@ -1,4 +1,9 @@
-function regexVar() {
-	return new RegExp(/^(Mr\.|Mrs\.|Ms\.|Dr\.|Er\.)[a-zA-Z]+$/)
+function processData(inputString) {
+	// This line of code prints the first line of output
+	console.log('Hello, World.')
+
+	// Write the second line of output that prints the contents of 'inputString' here.
+	console.log(inputString)
 }
-console.log(regexVar())
+
+processData('Welcome to 30 Days of Code!')

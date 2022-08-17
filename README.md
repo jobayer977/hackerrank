@@ -20,6 +20,8 @@
    - [Day 5 Template Literals](#day-5-template-literals)
    - [Day 6 JavaScript Dates](#day-6-javascript-dates)
    - [Day 7 Regular Expressions II](#day-7-regular-expressions-ii)
+- ### [30 Days of Code](#30-days-of-code)
+   - [Day 0 Hello World](#day-0-hello-world)
   <br/><br/><br/><br/> 
 
  # 10 Days of Javascript
@@ -512,6 +514,28 @@ console.log(getDayName('10/11/2009')) // Sunday
 function regexVar() {
 	return new RegExp(/^(Mr\.|Mrs\.|Ms\.|Dr\.|Er\.)[a-zA-Z]+$/)
 }
+```
+
+<!-- ### **Explanation** -->
+ 
+
+# 30 Days of Code
+ 
+ 
+## [Day 0 Hello World](https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
+function processData(inputString) {
+	// This line of code prints the first line of output
+	console.log('Hello, World.')
+
+	// Write the second line of output that prints the contents of 'inputString' here.
+	console.log(inputString)
+}
+
+processData('Welcome to 30 Days of Code!')
 ```
 
 <!-- ### **Explanation** -->
