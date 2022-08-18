@@ -22,6 +22,7 @@
    - [Day 7 Regular Expressions II](#day-7-regular-expressions-ii)
 - ### [30 Days of Code](#30-days-of-code)
    - [Day 0 of 30 Hello World](#day-0-of-30-hello-world)
+   - [Day 1 Data Types](#day-1-data-types)
 - ### [The HackerRank Interview Preparation Kit ](#the-hackerrank-interview-preparation-kit)
    - [Warm up Challenges Counting Valleys](#warm-up-challenges-counting-valleys)
    - [Warm up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
@@ -539,6 +540,32 @@ function processData(inputString) {
 }
 
 processData('Welcome to 30 Days of Code!')
+```
+
+<!-- ### **Explanation** -->
+ 
+
+   
+ 
+## [Day 1 Data Types](https://www.hackerrank.com/challenges/30-data-types/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
+var i2 = 0
+var d2 = 0.0
+var s2 = ''
+
+i2 = parseInt(readLine())
+d2 = parseFloat(readLine())
+s2 = readLine()
+
+console.log(i + i2)
+
+console.log((d + d2).toFixed(1))
+
+console.log(s + s2)
+
 ```
 
 <!-- ### **Explanation** -->
