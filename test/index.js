@@ -1,15 +1,13 @@
-function countingValleys(steps, path) {
-	let valleys = 0
-	let level = 0
-	for (const key in path) {
-		const item = path[key]
-		if (item === 'D') {
-			level--
-			if (level === -1) valleys++
-		} else {
-			level++
-		}
-	}
-	return valleys
-}
-countingValleys(8, 'UDDDUDUU')
+var i2 = 0
+var d2 = 0.0
+var s2 = ''
+
+i2 = parseInt(readLine())
+d2 = parseFloat(readLine())
+s2 = readLine()
+
+console.log(i + i2)
+
+console.log((d + d2).toFixed(1))
+
+console.log(s + s2)
