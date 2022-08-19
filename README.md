@@ -23,6 +23,7 @@
 - ### [30 Days of Code](#30-days-of-code)
    - [Day 0 of 30 Hello World](#day-0-of-30-hello-world)
    - [Day 1 Data Types](#day-1-data-types)
+   - [Day 2 Operators](#day-2-operators)
 - ### [The HackerRank Interview Preparation Kit ](#the-hackerrank-interview-preparation-kit)
    - [Warm up Challenges Counting Valleys](#warm-up-challenges-counting-valleys)
    - [Warm up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
@@ -567,6 +568,25 @@ console.log((d + d2).toFixed(1))
 
 console.log(s + s2)
 
+```
+
+<!-- ### **Explanation** -->
+ 
+
+   
+ 
+## [Day 2 Operators](https://www.hackerrank.com/challenges/30-operators/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
+function solve(meal_cost, tip_percent, tax_percent) {
+	const tip = (tip_percent / 100) * meal_cost
+	const tax = (tax_percent / 100) * meal_cost
+	console.log(Math.round(tip + tax + meal_cost))
+}
+
+solve(12.0, 20, 8)
 ```
 
 <!-- ### **Explanation** -->
