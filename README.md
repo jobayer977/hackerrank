@@ -28,6 +28,7 @@
    - [Warm up Challenges Counting Valleys](#warm-up-challenges-counting-valleys)
    - [Warm up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
    - [Jumping on the Clouds](#jumping-on-the-clouds)
+   - [Repeated String](#repeated-string)
   <br/><br/><br/><br/> 
 
  # 10 Days of Javascript
@@ -680,18 +681,36 @@ n = 6 (number of socks) and ar = [10, 20, 20, 10, 30, 10] (socks colors) . The f
 
 ```js
 function jumpingOnClouds(c) {
- let jumps = 0
- let i = 0
- while (i < c.length) {
-  if (i + 2 < c.length && c[i + 2] === 0) {
-   i += 2
-  } else {
-   i++
-  }
-  console.log(i)
-  jumps++
- }
- return jumps
+	let jumps = 0
+	let i = 0
+	while (i < c.length - 1) {
+		if (i + 2 < c.length && c[i + 2] == 0) {
+			i += 2
+		} else {
+			i++
+		}
+		jumps++
+	}
+	return jumps
+}
+```
+
+<!-- ### **Explanation** -->
+ 
+
+   
+ 
+## [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
+
+### **Answer:**
+
+```js
+function repeatedString(s, n) {
+	let occurances = s.split('a').length - 1
+	let max = Math.floor(n / s.length)
+	let totalAs = occurances * max
+	totalAs += s.slice(0, n % s.length).split('a').length - 1
+	return totalAs
 }
 ```
 

@@ -1,13 +1,8 @@
-function jumpingOnClouds(c) {
-	let jumps = 0
-	let i = 0
-	while (i < c.length - 1) {
-		if (i + 2 < c.length && c[i + 2] == 0) {
-			i += 2
-		} else {
-			i++
-		}
-		jumps++
-	}
-	return jumps
+function repeatedString(s, n) {
+	let occurances = s.split('a').length - 1
+	let max = Math.floor(n / s.length)
+	let totalAs = occurances * max
+	totalAs += s.slice(0, n % s.length).split('a').length - 1
+	return totalAs
 }
+console.log(repeatedString('aba', 10))
