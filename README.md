@@ -24,6 +24,7 @@
    - [Day 0 of 30 Hello World](#day-0-of-30-hello-world)
    - [Day 1 Data Types](#day-1-data-types)
    - [Day 2 Operators](#day-2-operators)
+   - [Day 3 Intro to Conditional Statements](#day-3-intro-to-conditional-statements)
 - ### [The HackerRank Interview Preparation Kit ](#the-hackerrank-interview-preparation-kit)
    - [Warm up Challenges Counting Valleys](#warm-up-challenges-counting-valleys)
    - [Warm up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
@@ -590,6 +591,31 @@ function solve(meal_cost, tip_percent, tax_percent) {
 solve(12.0, 20, 8)
 ```
 
+<!-- ### **Explanation** -->
+ 
+
+   
+ 
+## [Day 3 Intro to Conditional Statements](https://www.hackerrank.com/challenges/30-conditional-statements/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
+function main() {
+ const N = parseInt(readLine().trim(), 10)
+ const isEven = N % 2 === 0
+ if (!isEven) {
+  console.log('Weird')
+ } else if (isEven && N <= 5 && N >= 2) {
+  console.log('Not Weird')
+ } else if (isEven && N <= 20 && N >= 6) {
+  console.log('Weird')
+ } else if (isEven && N > 20) {
+  console.log('Not Weird')
+ }
+}
+
+```
 <!-- ### **Explanation** -->
  
 
