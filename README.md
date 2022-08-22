@@ -21,12 +21,12 @@
    - [Day 6 JavaScript Dates](#day-6-javascript-dates)
    - [Day 7 Regular Expressions II](#day-7-regular-expressions-ii)
 - ### [30 Days of Code](#30-days-of-code)
-   - [Day 5 Loops](#day-5-loops)
    - [Day 0 of 30 Hello World](#day-0-of-30-hello-world)
    - [Day 1 Data Types](#day-1-data-types)
    - [Day 2 Operators](#day-2-operators)
    - [Day 3 Intro to Conditional Statements](#day-3-intro-to-conditional-statements)
    - [Day 4 Class vs. Instance](#day-4-class-vs-instance)
+   - [Day 5 Loops](#day-5-loops)
 - ### [The HackerRank Interview Preparation Kit ](#the-hackerrank-interview-preparation-kit)
    - [Warm up Challenges Counting Valleys](#warm-up-challenges-counting-valleys)
    - [Warm up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
@@ -532,24 +532,6 @@ function regexVar() {
 # 30 Days of Code
  
  
-## [Day 5 Loops](https://www.hackerrank.com/challenges/30-loops/problem?isFullScreen=true)
-
-### **Answer:**
-
-```js
-function main() {
-	const n = parseInt(readLine().trim(), 10)
-	var i = 0
-	while (i < 10) {
-		i++
-		console.log(`${n} x ${i} = ${n * i}`)
-	}
-}
-```
- 
-
-   
- 
 ## [Day 0 of 30 Hello World](https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -669,6 +651,24 @@ function Person(initialAge) {
 ```
 
 <!-- ### **Explanation** -->
+ 
+
+   
+ 
+## [Day 5 Loops](https://www.hackerrank.com/challenges/30-loops/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
+function main() {
+	const n = parseInt(readLine().trim(), 10)
+	var i = 0
+	while (i < 10) {
+		i++
+		console.log(`${n} x ${i} = ${n * i}`)
+	}
+}
+```
  
 
 # The HackerRank Interview Preparation Kit 
