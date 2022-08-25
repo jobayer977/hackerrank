@@ -25,6 +25,12 @@ function processData(input) {
   }
  })
 }
+
+```
+
+**Input Format**
+
+```js
 processData('3\nsam 99912222\ntom 11122222\nharry 12299933\nsam\nedward\nharry')
 
 ```
