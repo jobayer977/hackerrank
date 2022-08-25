@@ -27,6 +27,9 @@
    - [Day 3 Intro to Conditional Statements](#day-3-intro-to-conditional-statements)
    - [Day 4 Class vs. Instance](#day-4-class-vs-instance)
    - [Day 5 Loops](#day-5-loops)
+   - [Day 6 Let's Review](#day-6-lets-review)
+   - [Day 7 Arrays](#day-7-arrays)
+   - [Day 8 Dictionaries and Maps](#day-8-dictionaries-and-maps)
 - ### [The HackerRank Interview Preparation Kit ](#the-hackerrank-interview-preparation-kit)
    - [Warm up Challenges Counting Valleys](#warm-up-challenges-counting-valleys)
    - [Warm up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
@@ -668,6 +671,83 @@ function main() {
 		console.log(`${n} x ${i} = ${n * i}`)
 	}
 }
+```
+ 
+
+   
+ 
+## [Day 6 Let's Review](https://www.hackerrank.com/challenges/30-review-loop/problem?isFullScreen=true)
+
+### **Answer:**
+
+**Input**
+
+```js
+processData('2\nHacker\nRank')
+```
+
+**Solution's**
+
+```js
+function processData(input) {
+	const inputArray = input.split('\n')
+	const inputStrings = inputArray.slice(1, inputArray.length)
+	for (let i = 0; i < inputArray[0]; i++) {
+		const str = inputStrings[i]
+		const odd = []
+		const even = []
+		for (let key in str) {
+			if (key % 2 == 0) {
+				even.push(str[key])
+			} else {
+				odd.push(str[key])
+			}
+		}
+		console.log(`${even.join('')} ${odd.join('')}`)
+	}
+}
+```
+ 
+
+   
+ 
+## [Day 7: Arrays](https://www.hackerrank.com/challenges/30-arrays/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
+console.log(arr.reverse().join(' '))
+```
+
+<!-- ### **Explanation** -->
+ 
+
+   
+ 
+## [Day 8 Dictionaries and Maps](https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
+function processData(input) {
+ const phoneBook = new Map()
+ const inputArray = input.split('\n')
+ const numberOfPhone = inputArray.shift()
+ inputArray.forEach((x, i, key) => {
+  if (i < Number(numberOfPhone)) {
+   const normalizedX = x.trim()?.split(' ')
+   phoneBook.set(normalizedX[0], normalizedX[1])
+  } else {
+   if (phoneBook.has(x)) {
+    console.log(`${x}=${phoneBook.get(x)}`)
+   } else {
+    console.log(`Not found`)
+   }
+  }
+ })
+}
+processData('3\nsam 99912222\ntom 11122222\nharry 12299933\nsam\nedward\nharry')
+
 ```
  
 
