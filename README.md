@@ -30,6 +30,7 @@
    - [Day 6 Let's Review](#day-6-lets-review)
    - [Day 7 Arrays](#day-7-arrays)
    - [Day 8 Dictionaries and Maps](#day-8-dictionaries-and-maps)
+   - [Day 9 Recursion 3](#day-9-recursion-3)
 - ### [The HackerRank Interview Preparation Kit ](#the-hackerrank-interview-preparation-kit)
    - [Warm up Challenges Counting Valleys](#warm-up-challenges-counting-valleys)
    - [Warm up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
@@ -755,6 +756,25 @@ function processData(input) {
 processData('3\nsam 99912222\ntom 11122222\nharry 12299933\nsam\nedward\nharry')
 
 ```
+ 
+
+   
+ 
+## [Day 9 Recursion 3](https://www.hackerrank.com/challenges/30-recursion/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
+function factorial(n) {
+    if(n==1){
+        return n
+    }
+    
+    return n * factorial(n-1)    
+}
+```
+
+<!-- ### **Explanation** -->
  
 
 # The HackerRank Interview Preparation Kit 
