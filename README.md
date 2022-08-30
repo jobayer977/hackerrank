@@ -25,6 +25,7 @@
    - [Day 1 Data Types](#day-1-data-types)
    - [Day 11 2D Arrays](#day-11-2d-arrays)
    - [Day 12 Inheritance](#day-12-inheritance)
+   - [Day 13 Abstract Classes](#day-13-abstract-classes)
    - [Day 2 Operators](#day-2-operators)
    - [Day 3 Intro to Conditional Statements](#day-3-intro-to-conditional-statements)
    - [Day 4 Class vs. Instance](#day-4-class-vs-instance)
@@ -726,6 +727,73 @@ function main() {
 	s.printPerson()
 	s.calculate()
 	console.log('Grade: ' + s.calculate())
+}
+```
+ 
+
+   
+ 
+## [Day 13 Abstract Classes](https://www.hackerrank.com/challenges/30-abstract-classes/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
+'use strict'
+
+var _input = ''
+var _index = 0
+process.stdin.on('data', (data) => {
+	_input += data
+})
+process.stdin.on('end', () => {
+	_input = _input.split(new RegExp('\n'))
+	main()
+})
+function readLine() {
+	return _input[_index++]
+}
+
+/**** Ignore above this line. ****/
+
+class Book {
+	constructor(title, author) {
+		if (this.constructor === Book) {
+			throw new TypeError(
+				'Do not attempt to directly instantiate an abstract class.'
+			)
+		} else {
+			this.title = title
+			this.author = author
+		}
+	}
+
+	display() {
+		console.log("Implement the 'display' method!")
+	}
+}
+
+// Start
+class MyBook extends Book {
+	constructor(title, author, price) {
+		super(title, author)
+		this.price = price
+	}
+
+	display() {
+		console.log(`Title: ${this.title}`)
+		console.log(`Author: ${this.author}`)
+		console.log(`Price: ${this.price}`)
+	}
+}
+// End
+
+function main() {
+	let title = readLine()
+	let author = readLine()
+	let price = +readLine()
+
+	let book = new MyBook(title, author, price)
+	book.display()
 }
 ```
  
