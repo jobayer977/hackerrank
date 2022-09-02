@@ -50,6 +50,6 @@ function sockMerchant(n, ar) {
 sockMerchant(6, [10, 20, 20, 10, 30, 1])
 ```
 
-### **Explanation**
+**Explanation**
 
 n = 6 (number of socks) and ar = [10, 20, 20, 10, 30, 10] (socks colors) . The function must return 2 . Because there are 2 pairs of matching socks: one of each color. So first we create a hash table with the colors as keys and the values as true. Then we loop through the array and check if the color is in the hash table. If it is, we increment the number of pairs and delete the color from the hash table. If it's not, we add the color to the hash table.

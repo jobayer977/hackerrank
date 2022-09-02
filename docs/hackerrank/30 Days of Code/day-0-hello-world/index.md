@@ -19,4 +19,4 @@ function processData(inputString) {
 processData('Welcome to 30 Days of Code!')
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->

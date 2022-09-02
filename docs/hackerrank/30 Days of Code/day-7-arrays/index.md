@@ -11,4 +11,4 @@ Problem: https://www.hackerrank.com/challenges/30-arrays/problem?isFullScreen=tr
 console.log(arr.reverse().join(' '))
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->

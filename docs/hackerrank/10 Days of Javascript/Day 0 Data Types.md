@@ -17,6 +17,6 @@ function performOperation(secondInteger, secondDecimal, secondString) {
 performOperation(10, 5.0, 'is the best place to learn and practice coding!')
 ```
 
-### **Explanation**
+**Explanation**
 
 First we convert the secondInteger and secondDecimal to numbers using the Number function. Then we add them together and print the result to the console. In the next line we simply concatenate the firstString and secondString and print the result to the console.

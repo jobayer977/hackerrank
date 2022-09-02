@@ -23,4 +23,4 @@ function jumpingOnClouds(c) {
 }
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->

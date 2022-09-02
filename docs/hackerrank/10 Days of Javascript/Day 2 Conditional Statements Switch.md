@@ -44,6 +44,6 @@ function getLetter(s) {
 console.log(getLetter('a')) // A
 ```
 
-### **Explanation**
+**Explanation**
 
 The first character of the string is a, so we return A. The rest of the string is empty, so we return A.

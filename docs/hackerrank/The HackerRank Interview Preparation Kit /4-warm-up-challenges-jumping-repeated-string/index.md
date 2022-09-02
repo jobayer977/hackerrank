@@ -17,4 +17,4 @@ function repeatedString(s, n) {
 }
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->

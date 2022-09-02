@@ -17,4 +17,4 @@ function solve(meal_cost, tip_percent, tax_percent) {
 solve(12.0, 20, 8)
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->

@@ -9,12 +9,12 @@ Problem: https://www.hackerrank.com/challenges/30-recursion/problem?isFullScreen
 
 ```js
 function factorial(n) {
-    if(n==1){
-        return n
-    }
-    
-    return n * factorial(n-1)    
+	if (n == 1) {
+		return n
+	}
+
+	return n * factorial(n - 1)
 }
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->

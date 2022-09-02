@@ -75,4 +75,4 @@ const arr = [
 getCount(arr) // 2
 ```
 
-### **Explanation**
+**Explanation**

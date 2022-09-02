@@ -62,7 +62,7 @@ function performOperation(secondInteger, secondDecimal, secondString) {
 performOperation(10, 5.0, 'is the best place to learn and practice coding!')
 ```
 
-### **Explanation**
+**Explanation**
 
 First we convert the secondInteger and secondDecimal to numbers using the Number function. Then we add them together and print the result to the console. In the next line we simply concatenate the firstString and secondString and print the result to the console.
 
@@ -96,7 +96,7 @@ function getPerimeter(length, width) {
 getArea(2, 3) // 6
 ```
 
-### **Explanation**
+**Explanation**
 
 We can get the area of a rectangle by multiplying the length by the width. The getArea function takes two parameters, length and width, and returns the area of the rectangle. We can get the perimeter of a rectangle by adding the length and width together and multiplying by two. The getPerimeter function takes two parameters, length and width, and returns the perimeter of the rectangle.
 
@@ -115,7 +115,7 @@ function factorial(n) {
 factorial(5) // 120
 ```
 
-### **Explanation**
+**Explanation**
 
 The function is recursive. It calls itself until it reaches the base case. In this case, n === 1, which returns 1. n _ factorial(n - 1) is the recursive call. Since n - 1 === 0, it returns 1. n _ factorial(n - 1) === n \* 1 === n.
 
@@ -202,7 +202,7 @@ function getLetter(s) {
 console.log(getLetter('a')) // A
 ```
 
-### **Explanation**
+**Explanation**
 
 The first character of the string is a, so we return A. The rest of the string is empty, so we return A.
 
@@ -240,7 +240,7 @@ function getSecondLargest(nums) {
 console.log(getSecondLargest([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 ```
 
-### **Explanation**
+**Explanation**
 
 The largest number is 10, and the second largest number is 9. Therefore, return 9. First, we sort the array in ascending order, Since the array is sorted in ascending order, the second largest number is the last second element in the array.
 
@@ -260,7 +260,7 @@ function isPositive(a) {
 }
 ```
 
-### **Explanation**
+**Explanation**
 
 The if statement checks if 'a' is greater than 0. If it is, the function returns 'YES'. If 'a' is 0, the function throws an error with the message 'Zero Error'. If 'a' is less than 0, the function throws an error with the message 'Negative Error'. The else statement is not needed because the function will never reach the else statement if 'a' is 0 or greater than 0.
 
@@ -369,7 +369,7 @@ const arr = [
 getCount(arr) // 2
 ```
 
-### **Explanation**
+**Explanation**
 
 14. ### 10 Days of Javascript - Day 4 Create a Rectangle Object
 
@@ -493,7 +493,7 @@ function regexVar() {
 }
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->
 
 20. ### Day 0 of 30 Hello World
 
@@ -513,7 +513,7 @@ function processData(inputString) {
 processData('Welcome to 30 Days of Code!')
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->
 
 21. ### Day 1 Data Types
 
@@ -535,10 +535,9 @@ console.log(i + i2)
 console.log((d + d2).toFixed(1))
 
 console.log(s + s2)
-
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->
 
 22. ### Day 11 2D Arrays
 
@@ -876,7 +875,7 @@ function solve(meal_cost, tip_percent, tax_percent) {
 solve(12.0, 20, 8)
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->
 
 28. ### Day 3 Intro to Conditional Statements
 
@@ -886,21 +885,21 @@ solve(12.0, 20, 8)
 
 ```js
 function main() {
- const N = parseInt(readLine().trim(), 10)
- const isEven = N % 2 === 0
- if (!isEven) {
-  console.log('Weird')
- } else if (isEven && N <= 5 && N >= 2) {
-  console.log('Not Weird')
- } else if (isEven && N <= 20 && N >= 6) {
-  console.log('Weird')
- } else if (isEven && N > 20) {
-  console.log('Not Weird')
- }
+	const N = parseInt(readLine().trim(), 10)
+	const isEven = N % 2 === 0
+	if (!isEven) {
+		console.log('Weird')
+	} else if (isEven && N <= 5 && N >= 2) {
+		console.log('Not Weird')
+	} else if (isEven && N <= 20 && N >= 6) {
+		console.log('Weird')
+	} else if (isEven && N > 20) {
+		console.log('Not Weird')
+	}
 }
-
 ```
-<!-- ### **Explanation** -->
+
+<!-- **Explanation** -->
 
 29. ### Day 4 Class vs. Instance
 
@@ -931,7 +930,7 @@ function Person(initialAge) {
 }
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->
 
 30. ### Day 5 Loops
 
@@ -994,7 +993,7 @@ function processData(input) {
 console.log(arr.reverse().join(' '))
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->
 
 33. ### Day 8 Dictionaries and Maps
 
@@ -1038,15 +1037,15 @@ processData('3\nsam 99912222\ntom 11122222\nharry 12299933\nsam\nedward\nharry')
 
 ```js
 function factorial(n) {
-    if(n==1){
-        return n
-    }
-    
-    return n * factorial(n-1)    
+	if (n == 1) {
+		return n
+	}
+
+	return n * factorial(n - 1)
 }
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->
 
 35. ### Warm up Challenges Counting Valleys
 
@@ -1121,7 +1120,7 @@ function sockMerchant(n, ar) {
 sockMerchant(6, [10, 20, 20, 10, 30, 1])
 ```
 
-### **Explanation**
+**Explanation**
 
 n = 6 (number of socks) and ar = [10, 20, 20, 10, 30, 10] (socks colors) . The function must return 2 . Because there are 2 pairs of matching socks: one of each color. So first we create a hash table with the colors as keys and the values as true. Then we loop through the array and check if the color is in the hash table. If it is, we increment the number of pairs and delete the color from the hash table. If it's not, we add the color to the hash table.
 
@@ -1147,7 +1146,7 @@ function jumpingOnClouds(c) {
 }
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->
 
 38. ### Repeated String
 
@@ -1165,7 +1164,7 @@ function repeatedString(s, n) {
 }
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->
 
 39. ### 1920 Build Array from Permutation
 

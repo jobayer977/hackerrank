@@ -21,7 +21,6 @@ console.log(i + i2)
 console.log((d + d2).toFixed(1))
 
 console.log(s + s2)
-
 ```
 
-<!-- ### **Explanation** -->
+<!-- **Explanation** -->
