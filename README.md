@@ -1,4 +1,4 @@
-# Problem Solving 40+ 
+# Problem Solving 41+ 
 
  ## Table of Contents
 
@@ -42,8 +42,9 @@
    - [The HackerRank Interview Preparation Kit - 03 Jumping on the Clouds](#the-hackerrank-interview-preparation-kit-03-jumping-on-the-clouds)
    - [The HackerRank Interview Preparation Kit - 04 Repeated String](#the-hackerrank-interview-preparation-kit-04-repeated-string)
 - ### [leetcode](#leetcode)
-   - [1920 Build Array from Permutation](#1920-build-array-from-permutation)
-   - [1929. Concatenation of Array](#1929-concatenation-of-array)
+   - [Array - 1480 Running Sum of 1d Array](#array-1480-running-sum-of-1d-array)
+   - [Array - 1920 Build Array from Permutation](#array-1920-build-array-from-permutation)
+   - [Array - 1929 Concatenation of Array](#array-1929-concatenation-of-array)
   <br/><br/><br/><br/> 
 
  # hackerrank
@@ -1168,10 +1169,27 @@ function repeatedString(s, n) {
  
 
 # leetcode
- ## [1920 Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
+ ## [Array - 1480 Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)
  
-## [1920 Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
+### **Answer:**
 
+```js
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var runningSum = function (nums) {
+	const arr = []
+	for (let i = 0; i < nums.length; i++) {
+		arr.push(nums.slice(0, i + 1).reduce((acc, curr) => acc + curr, 0))
+	}
+	return arr
+}
+```
+ 
+
+   ## [Array - 1920 Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
+ 
 ### **Solution:**
 
 ```js
@@ -1186,10 +1204,8 @@ var buildArray = function (nums) {
 ```
  
 
-   ## [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
+   ## [Array - 1929 Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
  
-## [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
-
 ### **Answer:**
 
 ```js
