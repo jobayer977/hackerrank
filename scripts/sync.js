@@ -59,9 +59,16 @@ import path from 'path'
 	// Write the file
 	fs.writeFileSync(
 		'./README.md',
-		` ## Table of Contents\n\n ${tableOfContentsStringForMarkdown}  <br/><br/><br/><br/> \n\n ${topicsStringForMarkdown}`
+		`# Problem Solving ${
+			Object.values(topics).flat(Infinity).length
+		}+ \n\n ## Table of Contents\n\n ${tableOfContentsStringForMarkdown}  <br/><br/><br/><br/> \n\n ${topicsStringForMarkdown}`
 	)
 	fs.writeFileSync('./json/topics.json', JSON.stringify(topics))
+	console.log(
+		`🎯 Sync Successfully completed - ${
+			Object.values(topics).flat(Infinity).length
+		}`
+	)
 })()
 // mark string to slug
 function slugify(text) {
