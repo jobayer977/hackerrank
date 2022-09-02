@@ -3,7 +3,7 @@ title: 30 Days of Code - Day 6 Let's Review
 Problem: https://www.hackerrank.com/challenges/30-review-loop/problem?isFullScreen=true
 ---
 
-### **Solution:**
+**Solution:**
 
 **Input**
 

@@ -3,7 +3,7 @@ title: 10 Days of Javascript - Day 1 Arithmetic Operators
 Problem: https://www.hackerrank.com/challenges/js10-arithmetic-operators/problem?isFullScreen=true
 ---
 
-### **Solution:**
+**Solution:**
 
 ```js
 function getArea(length, width) {

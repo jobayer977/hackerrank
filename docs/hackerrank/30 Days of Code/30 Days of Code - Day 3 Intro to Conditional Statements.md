@@ -3,7 +3,7 @@ title: 30 Days of Code - Day 3 Intro to Conditional Statements
 Problem: https://www.hackerrank.com/challenges/30-conditional-statements/problem?isFullScreen=true
 ---
 
-### **Solution:**
+**Solution:**
 
 ```js
 function main() {

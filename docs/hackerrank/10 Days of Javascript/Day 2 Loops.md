@@ -3,7 +3,7 @@ title: 10 Days of Javascript - Day 2 Loops
 Problem: https://www.hackerrank.com/challenges/js10-loops/problem?isFullScreen=true
 ---
 
-### **Solution:**
+**Solution:**
 
 ```js
 function vowelsAndConsonants(s) {

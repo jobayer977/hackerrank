@@ -3,7 +3,7 @@ title: 30 Days of Code - Day 16 Exceptions - String to Integer
 Problem: https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/problem?isFullScreen=true
 ---
 
-### **Solution:**
+**Solution:**
 
 ```js
 'use strict'

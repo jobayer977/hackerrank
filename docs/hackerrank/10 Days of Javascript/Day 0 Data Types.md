@@ -3,7 +3,7 @@ title: 10 Days of Javascript - Day 0 Data Types
 Problem: https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true
 ---
 
-### **Solution:**
+**Solution:**
 
 ```js
 function performOperation(secondInteger, secondDecimal, secondString) {

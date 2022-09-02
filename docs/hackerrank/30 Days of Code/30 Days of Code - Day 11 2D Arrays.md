@@ -3,7 +3,7 @@ title: 30 Days of Code - Day 11 2D Arrays
 Problem: https://www.hackerrank.com/challenges/30-2d-arrays/problem?isFullScreen=true
 ---
 
-### **Solution:**
+**Solution:**
 
 ```js
 'use strict'

@@ -3,7 +3,7 @@ title: 30 Days of Code - Day 5 Loops
 Problem: https://www.hackerrank.com/challenges/30-loops/problem?isFullScreen=true
 ---
 
-### **Solution:**
+**Solution:**
 
 ```js
 function main() {

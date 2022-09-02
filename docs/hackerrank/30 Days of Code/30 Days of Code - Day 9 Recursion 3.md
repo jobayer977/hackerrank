@@ -3,7 +3,7 @@ title: 30 Days of Code - Day 9 Recursion 3
 Problem: https://www.hackerrank.com/challenges/30-recursion/problem?isFullScreen=true
 ---
 
-### **Solution:**
+**Solution:**
 
 ```js
 function factorial(n) {

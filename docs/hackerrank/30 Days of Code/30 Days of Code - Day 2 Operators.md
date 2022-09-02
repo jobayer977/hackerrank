@@ -3,7 +3,7 @@ title: 30 Days of Code - Day 2 Operators
 Problem: https://www.hackerrank.com/challenges/30-operators/problem?isFullScreen=true
 ---
 
-### **Solution:**
+**Solution:**
 
 ```js
 function solve(meal_cost, tip_percent, tax_percent) {

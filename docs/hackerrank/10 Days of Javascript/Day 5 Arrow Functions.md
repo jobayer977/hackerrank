@@ -3,7 +3,7 @@ title: 10 Days of Javascript - Day 5 Arrow Functions
 Problem: https://www.hackerrank.com/challenges/js10-arrows/problem?isFullScreen=true
 ---
 
-### **Solution:**
+**Solution:**
 
 ```js
 function modifyArray(nums) {
