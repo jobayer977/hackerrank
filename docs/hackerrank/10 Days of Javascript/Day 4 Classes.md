@@ -1,5 +1,5 @@
 ---
-title: Day 4 Classes
+title: 10 Days of Javascript - Day 4 Classes
 Problem: https://www.hackerrank.com/challenges/js10-class/problem?isFullScreen=true
 ---
 

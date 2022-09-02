@@ -1,5 +1,5 @@
 ---
-title: Day 2 Conditional Statements If-Else
+title: 10 Days of Javascript - Day 2 Conditional Statements If-Else
 Problem: https://www.hackerrank.com/challenges/js10-if-else/problem?isFullScreen=true
 ---
 

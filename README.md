@@ -1,26 +1,25 @@
  ## Table of Contents
 
- - ### [10 Days of Javascript](#10-days-of-javascript)
-   - [Day 0 Data Types](#day-0-data-types)
-   - [Day 0 Hello, World!](#day-0-hello-world)
-   - [Day 1 Arithmetic Operators](#day-1-arithmetic-operators)
-   - [Day 1 Functions](#day-1-functions)
-   - [Day 1 Let and Const](#day-1-let-and-const)
-   - [Day 2 Conditional Statements If-Else](#day-2-conditional-statements-if-else)
-   - [Day 2 Conditional Statements Switch](#day-2-conditional-statements-switch)
-   - [Day 2 Loops](#day-2-loops)
-   - [Day 3 Arrays](#day-3-arrays)
-   - [Day 3 Throw](#day-3-throw)
-   - [Day 3 Try, Catch, and Finally](#day-3-try-catch-and-finally)
-   - [Day 4 Classes](#day-4-classes)
+ - ### [hackerrank](#hackerrank)
+   - [10 Days of Javascript - Day 0 Data Types](#10-days-of-javascript-day-0-data-types)
+   - [10 Days of Javascript - Day 0 Hello, World!](#10-days-of-javascript-day-0-hello-world)
+   - [10 Days of Javascript - Day 1 Arithmetic Operators](#10-days-of-javascript-day-1-arithmetic-operators)
+   - [10 Days of Javascript - Day 1 Functions](#10-days-of-javascript-day-1-functions)
+   - [10 Days of Javascript - Day 1 Let and Const](#10-days-of-javascript-day-1-let-and-const)
+   - [10 Days of Javascript - Day 2 Conditional Statements If-Else](#10-days-of-javascript-day-2-conditional-statements-if-else)
+   - [10 Days of Javascript - Day 2 Conditional Statements Switch](#10-days-of-javascript-day-2-conditional-statements-switch)
+   - [10 Days of Javascript - Day 2 Loops](#10-days-of-javascript-day-2-loops)
+   - [10 Days of Javascript - Day 3 Arrays](#10-days-of-javascript-day-3-arrays)
+   - [10 Days of Javascript - Day 3 Throw](#10-days-of-javascript-day-3-throw)
+   - [10 Days of Javascript - Day 3 Try, Catch, and Finally](#10-days-of-javascript-day-3-try-catch-and-finally)
+   - [10 Days of Javascript - Day 4 Classes](#10-days-of-javascript-day-4-classes)
    - [Day 4 Count Objects](#day-4-count-objects)
    - [Day 4 Create a Rectangle Object](#day-4-create-a-rectangle-object)
    - [Day 5 Arrow Functions](#day-5-arrow-functions)
    - [Day 5 Inheritance](#day-5-inheritance)
    - [Day 5 Template Literals](#day-5-template-literals)
-   - [Day 6 JavaScript Dates](#day-6-javascript-dates)
-   - [Day 7 Regular Expressions II](#day-7-regular-expressions-ii)
-- ### [30 Days of Code](#30-days-of-code)
+   - [10 Days of Javascript - Day 6 JavaScript Dates](#10-days-of-javascript-day-6-javascript-dates)
+   - [10 Days of Javascript - Day 7 Regular Expressions II](#10-days-of-javascript-day-7-regular-expressions-ii)
    - [Day 0 of 30 Hello World](#day-0-of-30-hello-world)
    - [Day 1 Data Types](#day-1-data-types)
    - [Day 11 2D Arrays](#day-11-2d-arrays)
@@ -36,33 +35,35 @@
    - [Day 7 Arrays](#day-7-arrays)
    - [Day 8 Dictionaries and Maps](#day-8-dictionaries-and-maps)
    - [Day 9 Recursion 3](#day-9-recursion-3)
-- ### [The HackerRank Interview Preparation Kit ](#the-hackerrank-interview-preparation-kit)
    - [Warm up Challenges Counting Valleys](#warm-up-challenges-counting-valleys)
    - [Warm up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
    - [Jumping on the Clouds](#jumping-on-the-clouds)
    - [Repeated String](#repeated-string)
+- ### [leetcode](#leetcode)
+   - [1920 Build Array from Permutation](#1920-build-array-from-permutation)
+   - [1929. Concatenation of Array](#1929-concatenation-of-array)
   <br/><br/><br/><br/> 
 
- # 10 Days of Javascript
+ # hackerrank
  
- ## [Day 0 Data Types](https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true)
+ 
+## [Day 0 Data Types](https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true)
 
 ### **Answer:**
 
- ```js
-   function performOperation(secondInteger, secondDecimal, secondString) {
-    const firstInteger = 4
-    const firstDecimal = 4.0
-    const firstString = 'HackerRank '
-    console.log(firstInteger + Number(secondInteger))
-    console.log(firstDecimal + Number(secondDecimal))
-    console.log(firstString + secondString)
-  }
+```js
+function performOperation(secondInteger, secondDecimal, secondString) {
+	const firstInteger = 4
+	const firstDecimal = 4.0
+	const firstString = 'HackerRank '
+	console.log(firstInteger + Number(secondInteger))
+	console.log(firstDecimal + Number(secondDecimal))
+	console.log(firstString + secondString)
+}
 
-  performOperation(10, 5.0, 'is the best place to learn and practice coding!')
+performOperation(10, 5.0, 'is the best place to learn and practice coding!')
+```
 
-  ```
-  
 ### **Explanation**
 
 First we convert the secondInteger and secondDecimal to numbers using the Number function. Then we add them together and print the result to the console. In the next line we simply concatenate the firstString and secondString and print the result to the console.
@@ -71,75 +72,81 @@ First we convert the secondInteger and secondDecimal to numbers using the Number
    
  
 ## [Day 0: Hello, World!](https://www.hackerrank.com/challenges/js10-objects/problem?isFullScreen=true)
+
 ### **Answer:**
 
- ```js
-    function greeting(parameterVariable) {
-        console.log('Hello, World!')
-        console.log(parameterVariable)
-    }
-  ```
-  
-**Explanation**
+```js
+function greeting(parameterVariable) {
+	console.log('Hello, World!')
+	console.log(parameterVariable)
+}
+```
 
+**Explanation**
 The first line of code prints 'Hello, World!' to the console. The second line of code prints the value of 'parameterVariable' to the console. The parameterVariable is a string of text.
  
 
    
- ## [Day 1 Arithmetic Operators](https://www.hackerrank.com/challenges/js10-arithmetic-operators/problem?isFullScreen=true)
+ 
+## [Day 1 Arithmetic Operators](https://www.hackerrank.com/challenges/js10-arithmetic-operators/problem?isFullScreen=true)
+
 ### **Answer:**
 
- ```js
-   function getArea(length, width) {
-    return length * width
-  }
+```js
+function getArea(length, width) {
+	return length * width
+}
 
-  function getPerimeter(length, width) {
-    return 2 * (length + width)
-  }
+function getPerimeter(length, width) {
+	return 2 * (length + width)
+}
 
-  getArea(2, 3) // 6
-  ```
-  
+getArea(2, 3) // 6
+```
+
 ### **Explanation**
 
 We can get the area of a rectangle by multiplying the length by the width. The getArea function takes two parameters, length and width, and returns the area of the rectangle. We can get the perimeter of a rectangle by adding the length and width together and multiplying by two. The getPerimeter function takes two parameters, length and width, and returns the perimeter of the rectangle.
-
  
 
    
- ## [Day 1 Functions](https://www.hackerrank.com/challenges/js10-function/problem?isFullScreen=true)
+ 
+## [Day 1 Functions](https://www.hackerrank.com/challenges/js10-function/problem?isFullScreen=true)
+
 ### **Answer:**
 
- ```js
-   function factorial(n) {
-    if (n === 1) {
-      return 1
-    }
-    return n * factorial(n - 1)
-  }
+```js
+function factorial(n) {
+	if (n === 1) {
+		return 1
+	}
+	return n * factorial(n - 1)
+}
 
-  factorial(5) // 120
-  ```
-  
+factorial(5) // 120
+```
+
 ### **Explanation**
 
-The function is recursive. It calls itself until it reaches the base case. In this case, n === 1, which returns 1. n * factorial(n - 1) is the recursive call. Since n - 1 === 0, it returns 1. n * factorial(n - 1) === n * 1 === n. 
+The function is recursive. It calls itself until it reaches the base case. In this case, n === 1, which returns 1. n _ factorial(n - 1) is the recursive call. Since n - 1 === 0, it returns 1. n _ factorial(n - 1) === n \* 1 === n.
+ 
 
    
- ## [Day 1 Let and Const](https://www.hackerrank.com/challenges/js10-let-and-const/problem?isFullScreen=true)
+ 
+## [Day 1 Let and Const](https://www.hackerrank.com/challenges/js10-let-and-const/problem?isFullScreen=true)
+
 ### **Answer:**
 
- ```js
-    const PI = Math.PI
-    const r = readLine() // 2.6
-    var area = parseFloat(PI * r * r)
-    console.log(area)
+```js
+const PI = Math.PI
+const r = readLine() // 2.6
+var area = parseFloat(PI * r * r)
+console.log(area)
 
-    var peri = parseFloat(2 * PI * r)
-    console.log(peri)
-  ```
-   
+var peri = parseFloat(2 * PI * r)
+console.log(peri)
+```
+ 
 
    
  
@@ -171,133 +178,138 @@ function getGrade(score) {
  
 
    
- ## [Day 2 Conditional Statements Switch](https://www.hackerrank.com/challenges/js10-if-else/problem?isFullScreen=true)
+ 
+## [Day 2 Conditional Statements Switch](https://www.hackerrank.com/challenges/js10-if-else/problem?isFullScreen=true)
 
 ### **Answer:**
 
- ```js
-   function getLetter(s) {
-    switch (s.charAt(0)) {
-      case 'a':
-      case 'e':
-      case 'i':
-      case 'o':
-      case 'u':
-        return 'A'
-      case 'b':
-      case 'c':
-      case 'd':
-      case 'f':
-      case 'g':
-        return 'B'
-      case 'h':
-      case 'j':
-      case 'k':
-      case 'l':
-      case 'm':
-        return 'C'
-      case 'n':
-      case 'p':
-      case 'q':
-      case 'r':
-      case 's':
-      case 't':
-      case 'v':
-      case 'w':
-      case 'x':
-      case 'y':
-      case 'z':
-        return 'D'
-    }
-  }
+```js
+function getLetter(s) {
+	switch (s.charAt(0)) {
+		case 'a':
+		case 'e':
+		case 'i':
+		case 'o':
+		case 'u':
+			return 'A'
+		case 'b':
+		case 'c':
+		case 'd':
+		case 'f':
+		case 'g':
+			return 'B'
+		case 'h':
+		case 'j':
+		case 'k':
+		case 'l':
+		case 'm':
+			return 'C'
+		case 'n':
+		case 'p':
+		case 'q':
+		case 'r':
+		case 's':
+		case 't':
+		case 'v':
+		case 'w':
+		case 'x':
+		case 'y':
+		case 'z':
+			return 'D'
+	}
+}
 
 console.log(getLetter('a')) // A
-  ```
-  
+```
+
 ### **Explanation**
 
-The first character of the string is a, so we return A.  The rest of the string is empty, so we return A.
+The first character of the string is a, so we return A. The rest of the string is empty, so we return A.
  
 
    
- ## [Day 2 Loops](https://www.hackerrank.com/challenges/js10-loops/problem?isFullScreen=true)
+ 
+## [Day 2 Loops](https://www.hackerrank.com/challenges/js10-loops/problem?isFullScreen=true)
 
 ### **Answer:**
 
- ```js
-   function vowelsAndConsonants(s) {
-    const vowelList = 'aeiouAEIOU';
-      for(let i = 0; i < s.length; i++){
-          if(vowelList.indexOf(s[i]) !== -1 ){
-              console.log(s[i])
-          }
-      }
-      for(let i = 0; i < s.length; i++){
-          if(vowelList.indexOf(s[i]) == -1 ){
-              console.log(s[i])
-          }
-      }
-
-  }
-  ```
-  
+```js
+function vowelsAndConsonants(s) {
+	const vowelList = 'aeiouAEIOU'
+	for (let i = 0; i < s.length; i++) {
+		if (vowelList.indexOf(s[i]) !== -1) {
+			console.log(s[i])
+		}
+	}
+	for (let i = 0; i < s.length; i++) {
+		if (vowelList.indexOf(s[i]) == -1) {
+			console.log(s[i])
+		}
+	}
+}
+```
  
 
    
- ## [Day 3 Arrays](https://www.hackerrank.com/challenges/js10-arrays/problem?isFullScreen=true)
+ 
+## [Day 3 Arrays](https://www.hackerrank.com/challenges/js10-arrays/problem?isFullScreen=true)
+
 ### **Answer:**
 
- ```js
-   function getSecondLargest(nums) {
-    let sortedNums = nums.sort((a, b) => a - b)
-    const res = Array(...new Set([...sortedNums]))
-    return res[res.length - 2]
-  }
+```js
+function getSecondLargest(nums) {
+	let sortedNums = nums.sort((a, b) => a - b)
+	const res = Array(...new Set([...sortedNums]))
+	return res[res.length - 2]
+}
 
-  console.log(getSecondLargest([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+console.log(getSecondLargest([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+```
 
-  ```
-  
 ### **Explanation**
 
-The largest number is 10, and the second largest number is 9. Therefore, return 9. First, we sort the array in ascending order, Since the array is sorted in ascending order, the second largest number is the last second element in the array. 
+The largest number is 10, and the second largest number is 9. Therefore, return 9. First, we sort the array in ascending order, Since the array is sorted in ascending order, the second largest number is the last second element in the array.
+ 
 
    
- ## [Day 3 Throw](https://www.hackerrank.com/challenges/js10-throw/problem?isFullScreen=true)
+ 
+## [Day 3 Throw](https://www.hackerrank.com/challenges/js10-throw/problem?isFullScreen=true)
+
 ### **Answer:**
 
- ```js
-   function isPositive(a) {
-    if (a > 0) {
-      return 'YES'
-    } else if (a === 0) {
-      throw new Error('Zero Error')
-    } else {
-      throw new Error('Negative Error')
-    }
-  }
-  ```
-  
+```js
+function isPositive(a) {
+	if (a > 0) {
+		return 'YES'
+	} else if (a === 0) {
+		throw new Error('Zero Error')
+	} else {
+		throw new Error('Negative Error')
+	}
+}
+```
+
 ### **Explanation**
+
 The if statement checks if 'a' is greater than 0. If it is, the function returns 'YES'. If 'a' is 0, the function throws an error with the message 'Zero Error'. If 'a' is less than 0, the function throws an error with the message 'Negative Error'. The else statement is not needed because the function will never reach the else statement if 'a' is 0 or greater than 0.
  
 
    
- ## [Day 3 Try, Catch, and Finally](https://www.hackerrank.com/challenges/js10-try-catch-and-finally/problem?isFullScreen=true)
+ 
+## [Day 3 Try, Catch, and Finally](https://www.hackerrank.com/challenges/js10-try-catch-and-finally/problem?isFullScreen=true)
 
 ### **Answer:**
 
- ```js
-   function reverseString(s) {
-    try {
-        console.log(s.split("").reverse().join(""));
-      } catch (e) {
-          console.log(e.message);
-          console.log(s);
-      }
-  }
-
-  ```
+```js
+function reverseString(s) {
+	try {
+		console.log(s.split('').reverse().join(''))
+	} catch (e) {
+		console.log(e.message)
+		console.log(s)
+	}
+}
+```
  
 
    
@@ -320,99 +332,100 @@ class Polygon {
  
 
    
- ## [Day 4 Count Objects](https://www.hackerrank.com/challenges/js10-count-objects/problem?isFullScreen=true)
+ 
+## [Day 4 Count Objects](https://www.hackerrank.com/challenges/js10-count-objects/problem?isFullScreen=true)
 
 ### **Answer:**
 
- ```js
-   function getCount(objects) {
-      let count = 0
-      for (const iterator of objects) {
-        if (iterator.x === iterator.y) {
-          count++
-        }
-      }
-      return count
-    }
+```js
+function getCount(objects) {
+	let count = 0
+	for (const iterator of objects) {
+		if (iterator.x === iterator.y) {
+			count++
+		}
+	}
+	return count
+}
 
 const arr = [
-  {
-    x: 1,
-    y: 1,
-  },
-  {
-    x: 2,
-    y: 3,
-  },
-  {
-    x: 3,
-    y: 3,
-  },
-  {
-    x: 2,
-    y: 4,
-  },
-  {
-    x: 4,
-    y: 5,
-  },
+	{
+		x: 1,
+		y: 1,
+	},
+	{
+		x: 2,
+		y: 3,
+	},
+	{
+		x: 3,
+		y: 3,
+	},
+	{
+		x: 2,
+		y: 4,
+	},
+	{
+		x: 4,
+		y: 5,
+	},
 ]
 
 getCount(arr) // 2
-  ```
+```
 
 **Solutions 2**
+
 ```javascript
 function getCount(objects) {
-    return objects.filter(({ x, y }) => x === y).length
-  }
+	return objects.filter(({ x, y }) => x === y).length
+}
 
-  const arr = [
-    {
-      x: 1,
-      y: 1,
-    },
-    {
-      x: 2,
-      y: 3,
-    },
-    {
-      x: 3,
-      y: 3,
-    },
-    {
-      x: 2,
-      y: 4,
-    },
-    {
-      x: 4,
-      y: 5,
-    },
-  ]
+const arr = [
+	{
+		x: 1,
+		y: 1,
+	},
+	{
+		x: 2,
+		y: 3,
+	},
+	{
+		x: 3,
+		y: 3,
+	},
+	{
+		x: 2,
+		y: 4,
+	},
+	{
+		x: 4,
+		y: 5,
+	},
+]
 
-  getCount(arr) // 2
-
+getCount(arr) // 2
 ```
-  
+
 ### **Explanation**
  
 
    
- ## [Day 4 Create a Rectangle Object](https://www.hackerrank.com/challenges/js10-objects/problem?isFullScreen=true)
+ 
+## [Day 4 Create a Rectangle Object](https://www.hackerrank.com/challenges/js10-objects/problem?isFullScreen=true)
 
 ### **Answer:**
 
- ```js
-   function Rectangle(a, b) {
-    return {
-      length: a,
-      width: b,
-      perimeter: 2 * (a + b),
-      area: a * b,
-    }
-  }
-  ```
-  
+```js
+function Rectangle(a, b) {
+	return {
+		length: a,
+		width: b,
+		perimeter: 2 * (a + b),
+		area: a * b,
+	}
+}
+```
  
 
    
@@ -464,7 +477,8 @@ class Square extends Rectangle {
 		super(w, w)
 	}
 }
-``` 
+```
+ 
 
    
  
@@ -474,10 +488,10 @@ class Square extends Rectangle {
 
 ```js
 function sides(literals, ...expressions) {
- const [a, p] = expressions
- const value = Math.sqrt(p ** 2 - 16 * a)
+	const [a, p] = expressions
+	const value = Math.sqrt(p ** 2 - 16 * a)
 
- return [(p - value) / 4, (p + value) / 4]
+	return [(p - value) / 4, (p + value) / 4]
 }
 ```
  
@@ -538,8 +552,7 @@ function regexVar() {
 <!-- ### **Explanation** -->
  
 
-# 30 Days of Code
- 
+   
  
 ## [Day 0 of 30 Hello World](https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true)
 
@@ -1107,8 +1120,7 @@ function factorial(n) {
 <!-- ### **Explanation** -->
  
 
-# The HackerRank Interview Preparation Kit 
- 
+   
  
 ## [Warm up Challenges Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
 
@@ -1229,5 +1241,41 @@ function repeatedString(s, n) {
 ```
 
 <!-- ### **Explanation** -->
+ 
+
+# leetcode
+ 
+ 
+## [1920 Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
+
+### **Solution:**
+
+```js
+var buildArray = function (nums) {
+	let newArray = []
+	for (let i = 0; i < nums.length; i++) {
+		const index = nums[i]
+		newArray.push(nums[index])
+	}
+	return newArray
+}
+```
+ 
+
+   
+ 
+## [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
+
+### **Answer:**
+
+```js
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var getConcatenation = function (nums) {
+	return nums.concat(nums)
+}
+```
  
 
