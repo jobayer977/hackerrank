@@ -1,9 +1,7 @@
 ---
-title: Day 9 Recursion 3
+title: 30 Days of Code - Day 9 Recursion 3
 Problem: https://www.hackerrank.com/challenges/30-recursion/problem?isFullScreen=true
 ---
-
-## [Day 9 Recursion 3](https://www.hackerrank.com/challenges/30-recursion/problem?isFullScreen=true)
 
 ### **Answer:**
 

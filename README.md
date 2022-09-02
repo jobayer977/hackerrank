@@ -22,25 +22,25 @@
    - [10 Days of Javascript - Day 5 Template Literals](#10-days-of-javascript-day-5-template-literals)
    - [10 Days of Javascript - Day 6 JavaScript Dates](#10-days-of-javascript-day-6-javascript-dates)
    - [10 Days of Javascript - Day 7 Regular Expressions II](#10-days-of-javascript-day-7-regular-expressions-ii)
-   - [Day 0 of 30 Hello World](#day-0-of-30-hello-world)
-   - [Day 1 Data Types](#day-1-data-types)
-   - [Day 11 2D Arrays](#day-11-2d-arrays)
-   - [Day 12 Inheritance](#day-12-inheritance)
-   - [Day 13 Abstract Classes](#day-13-abstract-classes)
-   - [Day 15 Linked List](#day-15-linked-list)
-   - [Day 16 Exceptions - String to Integer](#day-16-exceptions-string-to-integer)
-   - [Day 2 Operators](#day-2-operators)
-   - [Day 3 Intro to Conditional Statements](#day-3-intro-to-conditional-statements)
-   - [Day 4 Class vs. Instance](#day-4-class-vs-instance)
-   - [Day 5 Loops](#day-5-loops)
-   - [Day 6 Let's Review](#day-6-lets-review)
-   - [Day 7 Arrays](#day-7-arrays)
-   - [Day 8 Dictionaries and Maps](#day-8-dictionaries-and-maps)
-   - [Day 9 Recursion 3](#day-9-recursion-3)
-   - [Warm up Challenges Counting Valleys](#warm-up-challenges-counting-valleys)
-   - [Warm up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
-   - [Jumping on the Clouds](#jumping-on-the-clouds)
-   - [Repeated String](#repeated-string)
+   - [30 Days of Code - Day 1 Data Types](#30-days-of-code-day-1-data-types)
+   - [30 Days of Code - Day 1 Hello World](#30-days-of-code-day-1-hello-world)
+   - [30 Days of Code - Day 11 2D Arrays](#30-days-of-code-day-11-2d-arrays)
+   - [30 Days of Code - Day 12 Inheritance](#30-days-of-code-day-12-inheritance)
+   - [30 Days of Code - Day 13 Abstract Classes](#30-days-of-code-day-13-abstract-classes)
+   - [30 Days of Code - Day 15 Linked List](#30-days-of-code-day-15-linked-list)
+   - [30 Days of Code - Day 16 Exceptions - String to Integer](#30-days-of-code-day-16-exceptions-string-to-integer)
+   - [30 Days of Code - Day 2 Operators](#30-days-of-code-day-2-operators)
+   - [30 Days of Code - Day 3 Intro to Conditional Statements](#30-days-of-code-day-3-intro-to-conditional-statements)
+   - [30 Days of Code - Day 4 Class vs. Instance](#30-days-of-code-day-4-class-vs-instance)
+   - [30 Days of Code - Day 5 Loops](#30-days-of-code-day-5-loops)
+   - [30 Days of Code - Day 6 Let's Review](#30-days-of-code-day-6-lets-review)
+   - [30 Days of Code - Day 7 Arrays](#30-days-of-code-day-7-arrays)
+   - [30 Days of Code - Day 8 Dictionaries and Maps](#30-days-of-code-day-8-dictionaries-and-maps)
+   - [30 Days of Code - Day 9 Recursion 3](#30-days-of-code-day-9-recursion-3)
+   - [The HackerRank Interview Preparation Kit - 01 Warm up Challenges Counting Valleys](#the-hackerrank-interview-preparation-kit-01-warm-up-challenges-counting-valleys)
+   - [The HackerRank Interview Preparation Kit - 02 Warm up Challenges Sales by Match](#the-hackerrank-interview-preparation-kit-02-warm-up-challenges-sales-by-match)
+   - [The HackerRank Interview Preparation Kit - 03 Jumping on the Clouds](#the-hackerrank-interview-preparation-kit-03-jumping-on-the-clouds)
+   - [The HackerRank Interview Preparation Kit - 04 Repeated String](#the-hackerrank-interview-preparation-kit-04-repeated-string)
 - ### [leetcode](#leetcode)
    - [1920 Build Array from Permutation](#1920-build-array-from-permutation)
    - [1929. Concatenation of Array](#1929-concatenation-of-array)
@@ -515,31 +515,8 @@ function regexVar() {
 <!-- **Explanation** -->
  
 
-   ## [Day 0 of 30 Hello World](https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 1 Data Types](https://www.hackerrank.com/challenges/30-data-types/problem?isFullScreen=true)
  
-## [Day 0 of 30 Hello World](https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true)
-
-### **Answer:**
-
-```js
-function processData(inputString) {
-	// This line of code prints the first line of output
-	console.log('Hello, World.')
-
-	// Write the second line of output that prints the contents of 'inputString' here.
-	console.log(inputString)
-}
-
-processData('Welcome to 30 Days of Code!')
-```
-
-<!-- **Explanation** -->
- 
-
-   ## [Day 1 Data Types](https://www.hackerrank.com/challenges/30-data-types/problem?isFullScreen=true)
- 
-## [Day 1 Data Types](https://www.hackerrank.com/challenges/30-data-types/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js
@@ -561,10 +538,27 @@ console.log(s + s2)
 <!-- **Explanation** -->
  
 
-   ## [Day 11 2D Arrays](https://www.hackerrank.com/challenges/30-2d-arrays/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 1 Hello World](https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true)
  
-## [Day 11 2D Arrays](https://www.hackerrank.com/challenges/30-2d-arrays/problem?isFullScreen=true)
+### **Answer:**
 
+```js
+function processData(inputString) {
+	// This line of code prints the first line of output
+	console.log('Hello, World.')
+
+	// Write the second line of output that prints the contents of 'inputString' here.
+	console.log(inputString)
+}
+
+processData('Welcome to 30 Days of Code!')
+```
+
+<!-- **Explanation** -->
+ 
+
+   ## [30 Days of Code - Day 11 2D Arrays](https://www.hackerrank.com/challenges/30-2d-arrays/problem?isFullScreen=true)
+ 
 ### **Answer:**
 
 ```js
@@ -614,10 +608,8 @@ function main() {
 ```
  
 
-   ## [Day 12 Inheritance](https://www.hackerrank.com/challenges/30-inheritance/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 12 Inheritance](https://www.hackerrank.com/challenges/30-inheritance/problem?isFullScreen=true)
  
-## [Day 12 Inheritance](https://www.hackerrank.com/challenges/30-inheritance/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js
@@ -708,10 +700,8 @@ function main() {
 ```
  
 
-   ## [Day 13 Abstract Classes](https://www.hackerrank.com/challenges/30-abstract-classes/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 13 Abstract Classes](https://www.hackerrank.com/challenges/30-abstract-classes/problem?isFullScreen=true)
  
-## [Day 13 Abstract Classes](https://www.hackerrank.com/challenges/30-abstract-classes/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js
@@ -775,10 +765,8 @@ function main() {
 ```
  
 
-   ## [Day 15 Linked List](https://www.hackerrank.com/challenges/30-linked-list/problem?isFullScreen=true&h_r=next-challenge&h_v=zen)
+   ## [30 Days of Code - Day 15 Linked List](https://www.hackerrank.com/challenges/30-linked-list/problem?isFullScreen=true&h_r=next-challenge&h_v=zen)
  
-## [Day 15 Linked List](https://www.hackerrank.com/challenges/30-linked-list/problem?isFullScreen=true&h_r=next-challenge&h_v=zen)
-
 ### **Answer:**
 
 ```js
@@ -844,10 +832,8 @@ function main() {
 ```
  
 
-   ## [Day 16 Exceptions - String to Integer](https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 16 Exceptions - String to Integer](https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/problem?isFullScreen=true)
  
-## [Day 16 Exceptions - String to Integer](https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js
@@ -886,10 +872,8 @@ function main() {
 ```
  
 
-   ## [Day 2 Operators](https://www.hackerrank.com/challenges/30-operators/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 2 Operators](https://www.hackerrank.com/challenges/30-operators/problem?isFullScreen=true)
  
-## [Day 2 Operators](https://www.hackerrank.com/challenges/30-operators/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js
@@ -905,10 +889,8 @@ solve(12.0, 20, 8)
 <!-- **Explanation** -->
  
 
-   ## [Day 3 Intro to Conditional Statements](https://www.hackerrank.com/challenges/30-conditional-statements/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 3 Intro to Conditional Statements](https://www.hackerrank.com/challenges/30-conditional-statements/problem?isFullScreen=true)
  
-## [Day 3 Intro to Conditional Statements](https://www.hackerrank.com/challenges/30-conditional-statements/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js
@@ -930,10 +912,8 @@ function main() {
 <!-- **Explanation** -->
  
 
-   ## [Day 4 Class vs. Instance](https://www.hackerrank.com/challenges/30-class-vs-instance/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 4 Class vs. Instance](https://www.hackerrank.com/challenges/30-class-vs-instance/problem?isFullScreen=true)
  
-## [Day 4 Class vs. Instance](https://www.hackerrank.com/challenges/30-class-vs-instance/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js
@@ -962,10 +942,8 @@ function Person(initialAge) {
 <!-- **Explanation** -->
  
 
-   ## [Day 5 Loops](https://www.hackerrank.com/challenges/30-loops/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 5 Loops](https://www.hackerrank.com/challenges/30-loops/problem?isFullScreen=true)
  
-## [Day 5 Loops](https://www.hackerrank.com/challenges/30-loops/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js
@@ -980,10 +958,8 @@ function main() {
 ```
  
 
-   ## [Day 6 Let's Review](https://www.hackerrank.com/challenges/30-review-loop/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 6 Let's Review](https://www.hackerrank.com/challenges/30-review-loop/problem?isFullScreen=true)
  
-## [Day 6 Let's Review](https://www.hackerrank.com/challenges/30-review-loop/problem?isFullScreen=true)
-
 ### **Answer:**
 
 **Input**
@@ -1015,10 +991,8 @@ function processData(input) {
 ```
  
 
-   ## [Day 7 Arrays](https://www.hackerrank.com/challenges/30-arrays/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 7 Arrays](https://www.hackerrank.com/challenges/30-arrays/problem?isFullScreen=true)
  
-## [Day 7: Arrays](https://www.hackerrank.com/challenges/30-arrays/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js
@@ -1028,7 +1002,7 @@ console.log(arr.reverse().join(' '))
 <!-- **Explanation** -->
  
 
-   ## [Day 8 Dictionaries and Maps](https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 8 Dictionaries and Maps](https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem?isFullScreen=true)
  
 ## [Day 8 Dictionaries and Maps](https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem?isFullScreen=true)
 
@@ -1036,37 +1010,33 @@ console.log(arr.reverse().join(' '))
 
 ```js
 function processData(input) {
- const phoneBook = new Map()
- const inputArray = input.split('\n')
- const numberOfPhone = inputArray.shift()
- inputArray.forEach((x, i, key) => {
-  if (i < Number(numberOfPhone)) {
-   const normalizedX = x.trim()?.split(' ')
-   phoneBook.set(normalizedX[0], normalizedX[1])
-  } else {
-   if (phoneBook.has(x)) {
-    console.log(`${x}=${phoneBook.get(x)}`)
-   } else {
-    console.log(`Not found`)
-   }
-  }
- })
+	const phoneBook = new Map()
+	const inputArray = input.split('\n')
+	const numberOfPhone = inputArray.shift()
+	inputArray.forEach((x, i, key) => {
+		if (i < Number(numberOfPhone)) {
+			const normalizedX = x.trim()?.split(' ')
+			phoneBook.set(normalizedX[0], normalizedX[1])
+		} else {
+			if (phoneBook.has(x)) {
+				console.log(`${x}=${phoneBook.get(x)}`)
+			} else {
+				console.log(`Not found`)
+			}
+		}
+	})
 }
-
 ```
 
 **Input Format**
 
 ```js
 processData('3\nsam 99912222\ntom 11122222\nharry 12299933\nsam\nedward\nharry')
-
 ```
  
 
-   ## [Day 9 Recursion 3](https://www.hackerrank.com/challenges/30-recursion/problem?isFullScreen=true)
+   ## [30 Days of Code - Day 9 Recursion 3](https://www.hackerrank.com/challenges/30-recursion/problem?isFullScreen=true)
  
-## [Day 9 Recursion 3](https://www.hackerrank.com/challenges/30-recursion/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js
@@ -1082,10 +1052,8 @@ function factorial(n) {
 <!-- **Explanation** -->
  
 
-   ## [Warm up Challenges Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
+   ## [The HackerRank Interview Preparation Kit - 01 Warm up Challenges Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
  
-## [Warm up Challenges Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
-
 ### **Answer:**
 
 ```js
@@ -1107,10 +1075,8 @@ countingValleys(8, 'UDDDUDUU')
 ```
  
 
-   ## [Warm up Challenges Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
+   ## [The HackerRank Interview Preparation Kit - 02 Warm up Challenges Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
  
-## [Warm up Challenges Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
-
 ### **Answer:**
 
 ```js
@@ -1161,10 +1127,8 @@ sockMerchant(6, [10, 20, 20, 10, 30, 1])
 n = 6 (number of socks) and ar = [10, 20, 20, 10, 30, 10] (socks colors) . The function must return 2 . Because there are 2 pairs of matching socks: one of each color. So first we create a hash table with the colors as keys and the values as true. Then we loop through the array and check if the color is in the hash table. If it is, we increment the number of pairs and delete the color from the hash table. If it's not, we add the color to the hash table.
  
 
-   ## [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
+   ## [The HackerRank Interview Preparation Kit - 03 Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
  
-## [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
-
 ### **Answer:**
 
 ```js
@@ -1186,10 +1150,8 @@ function jumpingOnClouds(c) {
 <!-- **Explanation** -->
  
 
-   ## [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
+   ## [The HackerRank Interview Preparation Kit - 04 Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
  
-## [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
-
 ### **Answer:**
 
 ```js

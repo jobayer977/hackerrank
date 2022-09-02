@@ -1,9 +1,7 @@
 ---
-title: Day 5 Loops
+title: 30 Days of Code - Day 5 Loops
 Problem: https://www.hackerrank.com/challenges/30-loops/problem?isFullScreen=true
 ---
-
-## [Day 5 Loops](https://www.hackerrank.com/challenges/30-loops/problem?isFullScreen=true)
 
 ### **Answer:**
 

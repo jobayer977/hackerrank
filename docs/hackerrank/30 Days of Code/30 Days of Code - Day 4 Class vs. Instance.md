@@ -1,9 +1,7 @@
 ---
-title: Day 4 Class vs. Instance
+title: 30 Days of Code - Day 4 Class vs. Instance
 Problem: https://www.hackerrank.com/challenges/30-class-vs-instance/problem?isFullScreen=true
 ---
-
-## [Day 4 Class vs. Instance](https://www.hackerrank.com/challenges/30-class-vs-instance/problem?isFullScreen=true)
 
 ### **Answer:**
 

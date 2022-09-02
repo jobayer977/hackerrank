@@ -1,9 +1,7 @@
 ---
-title: Day 13 Abstract Classes
+title: 30 Days of Code - Day 13 Abstract Classes
 Problem: https://www.hackerrank.com/challenges/30-abstract-classes/problem?isFullScreen=true
 ---
-
-## [Day 13 Abstract Classes](https://www.hackerrank.com/challenges/30-abstract-classes/problem?isFullScreen=true)
 
 ### **Answer:**
 

@@ -1,9 +1,7 @@
 ---
-title: Day 6 Let's Review
+title: 30 Days of Code - Day 6 Let's Review
 Problem: https://www.hackerrank.com/challenges/30-review-loop/problem?isFullScreen=true
 ---
-
-## [Day 6 Let's Review](https://www.hackerrank.com/challenges/30-review-loop/problem?isFullScreen=true)
 
 ### **Answer:**
 

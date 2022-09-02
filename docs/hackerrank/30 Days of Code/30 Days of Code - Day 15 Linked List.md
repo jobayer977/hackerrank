@@ -1,9 +1,7 @@
 ---
-title: Day 15 Linked List
+title: 30 Days of Code - Day 15 Linked List
 Problem: https://www.hackerrank.com/challenges/30-linked-list/problem?isFullScreen=true&h_r=next-challenge&h_v=zen
 ---
-
-## [Day 15 Linked List](https://www.hackerrank.com/challenges/30-linked-list/problem?isFullScreen=true&h_r=next-challenge&h_v=zen)
 
 ### **Answer:**
 

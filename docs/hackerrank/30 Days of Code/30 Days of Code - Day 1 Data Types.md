@@ -1,9 +1,7 @@
 ---
-title: Day 1 Data Types
+title: 30 Days of Code - Day 1 Data Types
 Problem: https://www.hackerrank.com/challenges/30-data-types/problem?isFullScreen=true
 ---
-
-## [Day 1 Data Types](https://www.hackerrank.com/challenges/30-data-types/problem?isFullScreen=true)
 
 ### **Answer:**
 

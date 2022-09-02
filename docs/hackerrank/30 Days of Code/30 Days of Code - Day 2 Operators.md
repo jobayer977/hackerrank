@@ -1,9 +1,7 @@
 ---
-title: Day 2 Operators
+title: 30 Days of Code - Day 2 Operators
 Problem: https://www.hackerrank.com/challenges/30-operators/problem?isFullScreen=true
 ---
-
-## [Day 2 Operators](https://www.hackerrank.com/challenges/30-operators/problem?isFullScreen=true)
 
 ### **Answer:**
 

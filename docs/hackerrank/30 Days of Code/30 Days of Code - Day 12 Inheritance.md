@@ -1,9 +1,7 @@
 ---
-title: Day 12 Inheritance
+title: 30 Days of Code - Day 12 Inheritance
 Problem: https://www.hackerrank.com/challenges/30-inheritance/problem?isFullScreen=true
 ---
-
-## [Day 12 Inheritance](https://www.hackerrank.com/challenges/30-inheritance/problem?isFullScreen=true)
 
 ### **Answer:**
 

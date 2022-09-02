@@ -1,9 +1,7 @@
 ---
-title: Warm up Challenges Sales by Match
+title: The HackerRank Interview Preparation Kit - 02 Warm up Challenges Sales by Match
 Problem: https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
 ---
-
-## [Warm up Challenges Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
 
 ### **Answer:**
 

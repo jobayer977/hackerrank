@@ -1,9 +1,7 @@
 ---
-title: Day 0 of 30 Hello World
+title: 30 Days of Code - Day 1 Hello World
 Problem: https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true
 ---
-
-## [Day 0 of 30 Hello World](https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true)
 
 ### **Answer:**
 
