@@ -25,7 +25,6 @@ import path from 'path'
 			}
 		}
 	}
-
 	const topics = {}
 	fromDir(`./docs`, '.md', (filename) => {
 		const res = filename.split('/')
@@ -41,7 +40,6 @@ import path from 'path'
 		}
 		topics[section] = [...(topics[section] || []), payload]
 	})
-
 	const tableOfContentsStringForMarkdown = Object.entries(topics)
 		.map((x) => {
 			return `- ### [${x[0]}](#${slugify(x[0])})\n   ${x[1]
@@ -52,11 +50,12 @@ import path from 'path'
 	const topicsStringForMarkdown = Object.entries(topics)
 		.map((x) => {
 			return `# ${x[0]}\n ${x[1]
-				.map((y, yIndex) => `### ${y?.title}\n ${y?.content} \n`)
+				.map(
+					(y, yIndex) => `## [${y?.title}](${y?.problem})\n ${y?.content} \n`
+				)
 				.join('\n   ')}\n`
 		})
 		.join('')
-
 	// Write the file
 	fs.writeFileSync(
 		'./README.md',
@@ -64,7 +63,6 @@ import path from 'path'
 	)
 	fs.writeFileSync('./json/topics.json', JSON.stringify(topics))
 })()
-
 // mark string to slug
 function slugify(text) {
 	return text
