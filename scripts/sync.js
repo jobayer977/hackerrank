@@ -7,13 +7,6 @@ import path from 'path'
 ;
 
 (async function () {
-	const title = 'Problem Solving'
-	const resources = [
-		// {
-		// 	title: 'reactjs-interview-questions - by sudheerj',
-		// 	url: 'https://github.com/sudheerj/reactjs-interview-questions#what-is-react',
-		// },
-	]
 	const fromDir = (startPath, filter, callback) => {
 		if (!existsSync(startPath)) {
 			console.log('no dir ', startPath)
@@ -32,6 +25,7 @@ import path from 'path'
 			}
 		}
 	}
+
 	const topics = {}
 	fromDir(`./docs`, '.md', (filename) => {
 		const res = filename.split('/')
@@ -42,34 +36,35 @@ import path from 'path'
 		const payload = {
 			title: result.title,
 			content: content,
+			problem: result.Problem,
 			section,
-			source: result?.source,
 		}
 		topics[section] = [...(topics[section] || []), payload]
 	})
-	const tableOfContentsStringForMarkdown = Object.values(topics)
-		.flat(Infinity)
-		.map((y, i) => `- [${i + 1} ${y?.title}](#${slugify(y?.title)})\n`)
+
+	const tableOfContentsStringForMarkdown = Object.entries(topics)
+		.map((x) => {
+			return `- ### [${x[0]}](#${slugify(x[0])})\n   ${x[1]
+				.map((y) => `- [${y.title}](#${slugify(y?.title)})`)
+				.join('\n   ')}\n`
+		})
 		.join('')
-	const topicsStringForMarkdown = Object.values(topics)
-		.flat(Infinity)
-		.map((y, yIndex) => `${yIndex + 1}. ### ${y?.title}\n${y?.content}\n`)
+	const topicsStringForMarkdown = Object.entries(topics)
+		.map((x) => {
+			return `# ${x[0]}\n ${x[1]
+				.map((y, yIndex) => `### ${y?.title}\n ${y?.content} \n`)
+				.join('\n   ')}\n`
+		})
 		.join('')
-	const resourcesStringForMarkdown = resources
-		.map((y, yIndex) => `- [${y.title}](${y.url}) \n`)
-		.join('')
+
 	// Write the file
 	fs.writeFileSync(
 		'./README.md',
-		`# ${title} \n ### Resources \n${resourcesStringForMarkdown} \n\n ## Table of Contents\n\n${tableOfContentsStringForMarkdown}<br/><br/><br/><br/>\n\n${topicsStringForMarkdown}`
+		` ## Table of Contents\n\n ${tableOfContentsStringForMarkdown}  <br/><br/><br/><br/> \n\n ${topicsStringForMarkdown}`
 	)
 	fs.writeFileSync('./json/topics.json', JSON.stringify(topics))
-	console.log(
-		`🎯 Sync Successfully completed - ${
-			Object.values(topics).flat(Infinity).length
-		}`
-	)
 })()
+
 // mark string to slug
 function slugify(text) {
 	return text
