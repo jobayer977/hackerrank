@@ -1,9 +1,7 @@
 ---
-title: Day 5 Arrow Functions
+title: 10 Days of Javascript - Day 5 Arrow Functions
 Problem: https://www.hackerrank.com/challenges/js10-arrows/problem?isFullScreen=true
 ---
-
-## [Day 5 Arrow Functions](https://www.hackerrank.com/challenges/js10-arrows/problem?isFullScreen=true)
 
 ### **Answer:**
 

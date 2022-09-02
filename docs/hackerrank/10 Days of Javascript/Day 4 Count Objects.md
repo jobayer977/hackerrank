@@ -1,9 +1,7 @@
 ---
-title: Day 4 Count Objects
+title: 10 Days of Javascript - Day 4 Count Objects
 Problem: https://www.hackerrank.com/challenges/js10-count-objects/problem?isFullScreen=true
 ---
-
-## [Day 4 Count Objects](https://www.hackerrank.com/challenges/js10-count-objects/problem?isFullScreen=true)
 
 ### **Answer:**
 

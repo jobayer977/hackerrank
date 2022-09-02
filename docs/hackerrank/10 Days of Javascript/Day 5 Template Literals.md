@@ -1,9 +1,7 @@
 ---
-title: Day 5 Template Literals
+title: 10 Days of Javascript - Day 5 Template Literals
 Problem: https://www.hackerrank.com/challenges/js10-template-literals/problem?isFullScreen=true
 ---
-
-## [Day 5 Template Literals](https://www.hackerrank.com/challenges/js10-template-literals/problem?isFullScreen=true)
 
 ### **Answer:**
 

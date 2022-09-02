@@ -3,8 +3,6 @@ title: 10 Days of Javascript - Day 3 Try, Catch, and Finally
 Problem: https://www.hackerrank.com/challenges/js10-try-catch-and-finally/problem?isFullScreen=true
 ---
 
-## [Day 3 Try, Catch, and Finally](https://www.hackerrank.com/challenges/js10-try-catch-and-finally/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js

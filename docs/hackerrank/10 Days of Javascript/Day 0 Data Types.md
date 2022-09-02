@@ -3,8 +3,6 @@ title: 10 Days of Javascript - Day 0 Data Types
 Problem: https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true
 ---
 
-## [Day 0 Data Types](https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js
@@ -16,7 +14,6 @@ function performOperation(secondInteger, secondDecimal, secondString) {
 	console.log(firstDecimal + Number(secondDecimal))
 	console.log(firstString + secondString)
 }
-
 performOperation(10, 5.0, 'is the best place to learn and practice coding!')
 ```
 

@@ -3,8 +3,6 @@ title: 10 Days of Javascript - Day 3 Arrays
 Problem: https://www.hackerrank.com/challenges/js10-arrays/problem?isFullScreen=true
 ---
 
-## [Day 3 Arrays](https://www.hackerrank.com/challenges/js10-arrays/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js

@@ -1,53 +1,52 @@
+# Problem Solving 
+ ### Resources 
+ 
+
  ## Table of Contents
 
- - ### [hackerrank](#hackerrank)
-   - [10 Days of Javascript - Day 0 Data Types](#10-days-of-javascript-day-0-data-types)
-   - [10 Days of Javascript - Day 0 Hello, World!](#10-days-of-javascript-day-0-hello-world)
-   - [10 Days of Javascript - Day 1 Arithmetic Operators](#10-days-of-javascript-day-1-arithmetic-operators)
-   - [10 Days of Javascript - Day 1 Functions](#10-days-of-javascript-day-1-functions)
-   - [10 Days of Javascript - Day 1 Let and Const](#10-days-of-javascript-day-1-let-and-const)
-   - [10 Days of Javascript - Day 2 Conditional Statements If-Else](#10-days-of-javascript-day-2-conditional-statements-if-else)
-   - [10 Days of Javascript - Day 2 Conditional Statements Switch](#10-days-of-javascript-day-2-conditional-statements-switch)
-   - [10 Days of Javascript - Day 2 Loops](#10-days-of-javascript-day-2-loops)
-   - [10 Days of Javascript - Day 3 Arrays](#10-days-of-javascript-day-3-arrays)
-   - [10 Days of Javascript - Day 3 Throw](#10-days-of-javascript-day-3-throw)
-   - [10 Days of Javascript - Day 3 Try, Catch, and Finally](#10-days-of-javascript-day-3-try-catch-and-finally)
-   - [10 Days of Javascript - Day 4 Classes](#10-days-of-javascript-day-4-classes)
-   - [Day 4 Count Objects](#day-4-count-objects)
-   - [Day 4 Create a Rectangle Object](#day-4-create-a-rectangle-object)
-   - [Day 5 Arrow Functions](#day-5-arrow-functions)
-   - [Day 5 Inheritance](#day-5-inheritance)
-   - [Day 5 Template Literals](#day-5-template-literals)
-   - [10 Days of Javascript - Day 6 JavaScript Dates](#10-days-of-javascript-day-6-javascript-dates)
-   - [10 Days of Javascript - Day 7 Regular Expressions II](#10-days-of-javascript-day-7-regular-expressions-ii)
-   - [Day 0 of 30 Hello World](#day-0-of-30-hello-world)
-   - [Day 1 Data Types](#day-1-data-types)
-   - [Day 11 2D Arrays](#day-11-2d-arrays)
-   - [Day 12 Inheritance](#day-12-inheritance)
-   - [Day 13 Abstract Classes](#day-13-abstract-classes)
-   - [Day 15 Linked List](#day-15-linked-list)
-   - [Day 16 Exceptions - String to Integer](#day-16-exceptions-string-to-integer)
-   - [Day 2 Operators](#day-2-operators)
-   - [Day 3 Intro to Conditional Statements](#day-3-intro-to-conditional-statements)
-   - [Day 4 Class vs. Instance](#day-4-class-vs-instance)
-   - [Day 5 Loops](#day-5-loops)
-   - [Day 6 Let's Review](#day-6-lets-review)
-   - [Day 7 Arrays](#day-7-arrays)
-   - [Day 8 Dictionaries and Maps](#day-8-dictionaries-and-maps)
-   - [Day 9 Recursion 3](#day-9-recursion-3)
-   - [Warm up Challenges Counting Valleys](#warm-up-challenges-counting-valleys)
-   - [Warm up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
-   - [Jumping on the Clouds](#jumping-on-the-clouds)
-   - [Repeated String](#repeated-string)
-- ### [leetcode](#leetcode)
-   - [1920 Build Array from Permutation](#1920-build-array-from-permutation)
-   - [1929. Concatenation of Array](#1929-concatenation-of-array)
-  <br/><br/><br/><br/> 
+- [1 10 Days of Javascript - Day 0 Data Types](#10-days-of-javascript-day-0-data-types)
+- [2 10 Days of Javascript - Day 0 Hello, World!](#10-days-of-javascript-day-0-hello-world)
+- [3 10 Days of Javascript - Day 1 Arithmetic Operators](#10-days-of-javascript-day-1-arithmetic-operators)
+- [4 10 Days of Javascript - Day 1 Functions](#10-days-of-javascript-day-1-functions)
+- [5 10 Days of Javascript - Day 1 Let and Const](#10-days-of-javascript-day-1-let-and-const)
+- [6 10 Days of Javascript - Day 2 Conditional Statements If-Else](#10-days-of-javascript-day-2-conditional-statements-if-else)
+- [7 10 Days of Javascript - Day 2 Conditional Statements Switch](#10-days-of-javascript-day-2-conditional-statements-switch)
+- [8 10 Days of Javascript - Day 2 Loops](#10-days-of-javascript-day-2-loops)
+- [9 10 Days of Javascript - Day 3 Arrays](#10-days-of-javascript-day-3-arrays)
+- [10 10 Days of Javascript - Day 3 Throw](#10-days-of-javascript-day-3-throw)
+- [11 10 Days of Javascript - Day 3 Try, Catch, and Finally](#10-days-of-javascript-day-3-try-catch-and-finally)
+- [12 10 Days of Javascript - Day 4 Classes](#10-days-of-javascript-day-4-classes)
+- [13 10 Days of Javascript - Day 4 Count Objects](#10-days-of-javascript-day-4-count-objects)
+- [14 10 Days of Javascript - Day 4 Create a Rectangle Object](#10-days-of-javascript-day-4-create-a-rectangle-object)
+- [15 10 Days of Javascript - Day 5 Arrow Functions](#10-days-of-javascript-day-5-arrow-functions)
+- [16 10 Days of Javascript - Day 5 Inheritance](#10-days-of-javascript-day-5-inheritance)
+- [17 10 Days of Javascript - Day 5 Template Literals](#10-days-of-javascript-day-5-template-literals)
+- [18 10 Days of Javascript - Day 6 JavaScript Dates](#10-days-of-javascript-day-6-javascript-dates)
+- [19 10 Days of Javascript - Day 7 Regular Expressions II](#10-days-of-javascript-day-7-regular-expressions-ii)
+- [20 Day 0 of 30 Hello World](#day-0-of-30-hello-world)
+- [21 Day 1 Data Types](#day-1-data-types)
+- [22 Day 11 2D Arrays](#day-11-2d-arrays)
+- [23 Day 12 Inheritance](#day-12-inheritance)
+- [24 Day 13 Abstract Classes](#day-13-abstract-classes)
+- [25 Day 15 Linked List](#day-15-linked-list)
+- [26 Day 16 Exceptions - String to Integer](#day-16-exceptions-string-to-integer)
+- [27 Day 2 Operators](#day-2-operators)
+- [28 Day 3 Intro to Conditional Statements](#day-3-intro-to-conditional-statements)
+- [29 Day 4 Class vs. Instance](#day-4-class-vs-instance)
+- [30 Day 5 Loops](#day-5-loops)
+- [31 Day 6 Let's Review](#day-6-lets-review)
+- [32 Day 7 Arrays](#day-7-arrays)
+- [33 Day 8 Dictionaries and Maps](#day-8-dictionaries-and-maps)
+- [34 Day 9 Recursion 3](#day-9-recursion-3)
+- [35 Warm up Challenges Counting Valleys](#warm-up-challenges-counting-valleys)
+- [36 Warm up Challenges Sales by Match](#warm-up-challenges-sales-by-match)
+- [37 Jumping on the Clouds](#jumping-on-the-clouds)
+- [38 Repeated String](#repeated-string)
+- [39 1920 Build Array from Permutation](#1920-build-array-from-permutation)
+- [40 1929. Concatenation of Array](#1929-concatenation-of-array)
+<br/><br/><br/><br/>
 
- # hackerrank
- 
- 
-## [Day 0 Data Types](https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true)
+1. ### 10 Days of Javascript - Day 0 Data Types
 
 ### **Answer:**
 
@@ -60,18 +59,14 @@ function performOperation(secondInteger, secondDecimal, secondString) {
 	console.log(firstDecimal + Number(secondDecimal))
 	console.log(firstString + secondString)
 }
-
 performOperation(10, 5.0, 'is the best place to learn and practice coding!')
 ```
 
 ### **Explanation**
 
 First we convert the secondInteger and secondDecimal to numbers using the Number function. Then we add them together and print the result to the console. In the next line we simply concatenate the firstString and secondString and print the result to the console.
- 
 
-   
- 
-## [Day 0: Hello, World!](https://www.hackerrank.com/challenges/js10-objects/problem?isFullScreen=true)
+2. ### 10 Days of Javascript - Day 0 Hello, World!
 
 ### **Answer:**
 
@@ -84,11 +79,8 @@ function greeting(parameterVariable) {
 
 **Explanation**
 The first line of code prints 'Hello, World!' to the console. The second line of code prints the value of 'parameterVariable' to the console. The parameterVariable is a string of text.
- 
 
-   
- 
-## [Day 1 Arithmetic Operators](https://www.hackerrank.com/challenges/js10-arithmetic-operators/problem?isFullScreen=true)
+3. ### 10 Days of Javascript - Day 1 Arithmetic Operators
 
 ### **Answer:**
 
@@ -107,11 +99,8 @@ getArea(2, 3) // 6
 ### **Explanation**
 
 We can get the area of a rectangle by multiplying the length by the width. The getArea function takes two parameters, length and width, and returns the area of the rectangle. We can get the perimeter of a rectangle by adding the length and width together and multiplying by two. The getPerimeter function takes two parameters, length and width, and returns the perimeter of the rectangle.
- 
 
-   
- 
-## [Day 1 Functions](https://www.hackerrank.com/challenges/js10-function/problem?isFullScreen=true)
+4. ### 10 Days of Javascript - Day 1 Functions
 
 ### **Answer:**
 
@@ -129,11 +118,8 @@ factorial(5) // 120
 ### **Explanation**
 
 The function is recursive. It calls itself until it reaches the base case. In this case, n === 1, which returns 1. n _ factorial(n - 1) is the recursive call. Since n - 1 === 0, it returns 1. n _ factorial(n - 1) === n \* 1 === n.
- 
 
-   
- 
-## [Day 1 Let and Const](https://www.hackerrank.com/challenges/js10-let-and-const/problem?isFullScreen=true)
+5. ### 10 Days of Javascript - Day 1 Let and Const
 
 ### **Answer:**
 
@@ -146,11 +132,8 @@ console.log(area)
 var peri = parseFloat(2 * PI * r)
 console.log(peri)
 ```
- 
 
-   
- 
-## [Day 2 Conditional Statements: If-Else](https://www.hackerrank.com/challenges/js10-if-else/problem?isFullScreen=true)
+6. ### 10 Days of Javascript - Day 2 Conditional Statements If-Else
 
 ### **Answer:**
 
@@ -175,11 +158,8 @@ function getGrade(score) {
 	return grade
 }
 ```
- 
 
-   
- 
-## [Day 2 Conditional Statements Switch](https://www.hackerrank.com/challenges/js10-if-else/problem?isFullScreen=true)
+7. ### 10 Days of Javascript - Day 2 Conditional Statements Switch
 
 ### **Answer:**
 
@@ -225,11 +205,8 @@ console.log(getLetter('a')) // A
 ### **Explanation**
 
 The first character of the string is a, so we return A. The rest of the string is empty, so we return A.
- 
 
-   
- 
-## [Day 2 Loops](https://www.hackerrank.com/challenges/js10-loops/problem?isFullScreen=true)
+8. ### 10 Days of Javascript - Day 2 Loops
 
 ### **Answer:**
 
@@ -248,11 +225,8 @@ function vowelsAndConsonants(s) {
 	}
 }
 ```
- 
 
-   
- 
-## [Day 3 Arrays](https://www.hackerrank.com/challenges/js10-arrays/problem?isFullScreen=true)
+9. ### 10 Days of Javascript - Day 3 Arrays
 
 ### **Answer:**
 
@@ -269,11 +243,8 @@ console.log(getSecondLargest([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 ### **Explanation**
 
 The largest number is 10, and the second largest number is 9. Therefore, return 9. First, we sort the array in ascending order, Since the array is sorted in ascending order, the second largest number is the last second element in the array.
- 
 
-   
- 
-## [Day 3 Throw](https://www.hackerrank.com/challenges/js10-throw/problem?isFullScreen=true)
+10. ### 10 Days of Javascript - Day 3 Throw
 
 ### **Answer:**
 
@@ -292,11 +263,8 @@ function isPositive(a) {
 ### **Explanation**
 
 The if statement checks if 'a' is greater than 0. If it is, the function returns 'YES'. If 'a' is 0, the function throws an error with the message 'Zero Error'. If 'a' is less than 0, the function throws an error with the message 'Negative Error'. The else statement is not needed because the function will never reach the else statement if 'a' is 0 or greater than 0.
- 
 
-   
- 
-## [Day 3 Try, Catch, and Finally](https://www.hackerrank.com/challenges/js10-try-catch-and-finally/problem?isFullScreen=true)
+11. ### 10 Days of Javascript - Day 3 Try, Catch, and Finally
 
 ### **Answer:**
 
@@ -310,11 +278,8 @@ function reverseString(s) {
 	}
 }
 ```
- 
 
-   
- 
-## [Day 4 Classes](https://www.hackerrank.com/challenges/js10-class/problem?isFullScreen=true)
+12. ### 10 Days of Javascript - Day 4 Classes
 
 ### **Answer:**
 
@@ -329,11 +294,8 @@ class Polygon {
 	}
 }
 ```
- 
 
-   
- 
-## [Day 4 Count Objects](https://www.hackerrank.com/challenges/js10-count-objects/problem?isFullScreen=true)
+13. ### 10 Days of Javascript - Day 4 Count Objects
 
 ### **Answer:**
 
@@ -408,11 +370,8 @@ getCount(arr) // 2
 ```
 
 ### **Explanation**
- 
 
-   
- 
-## [Day 4 Create a Rectangle Object](https://www.hackerrank.com/challenges/js10-objects/problem?isFullScreen=true)
+14. ### 10 Days of Javascript - Day 4 Create a Rectangle Object
 
 ### **Answer:**
 
@@ -426,11 +385,8 @@ function Rectangle(a, b) {
 	}
 }
 ```
- 
 
-   
- 
-## [Day 5 Arrow Functions](https://www.hackerrank.com/challenges/js10-arrows/problem?isFullScreen=true)
+15. ### 10 Days of Javascript - Day 5 Arrow Functions
 
 ### **Answer:**
 
@@ -448,11 +404,8 @@ function modifyArray(nums) {
 
 console.log(modifyArray([1, 2, 3, 4, 5])) //  [3, 4, 9, 8, 15]
 ```
- 
 
-   
- 
-## [Day 5 Inheritance](https://www.hackerrank.com/challenges/js10-inheritance/problem?isFullScreen=true)
+16. ### 10 Days of Javascript - Day 5 Inheritance
 
 ### **Answer:**
 
@@ -478,11 +431,8 @@ class Square extends Rectangle {
 	}
 }
 ```
- 
 
-   
- 
-## [Day 5 Template Literals](https://www.hackerrank.com/challenges/js10-template-literals/problem?isFullScreen=true)
+17. ### 10 Days of Javascript - Day 5 Template Literals
 
 ### **Answer:**
 
@@ -494,11 +444,8 @@ function sides(literals, ...expressions) {
 	return [(p - value) / 4, (p + value) / 4]
 }
 ```
- 
 
-   
- 
-## [Day 6 JavaScript Dates](https://www.hackerrank.com/challenges/js10-date/problem?isFullScreen=true)
+18. ### 10 Days of Javascript - Day 6 JavaScript Dates
 
 ### **Answer:**
 
@@ -535,11 +482,8 @@ function getDayName(dateString) {
 
 console.log(getDayName('10/11/2009')) // Sunday
 ```
- 
 
-   
- 
-## [Day 7 Regular Expressions II](https://www.hackerrank.com/challenges/js10-regexp-2/problem?isFullScreen=true)
+19. ### 10 Days of Javascript - Day 7 Regular Expressions II
 
 ### **Answer:**
 
@@ -550,10 +494,9 @@ function regexVar() {
 ```
 
 <!-- ### **Explanation** -->
- 
 
-   
- 
+20. ### Day 0 of 30 Hello World
+
 ## [Day 0 of 30 Hello World](https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -571,10 +514,9 @@ processData('Welcome to 30 Days of Code!')
 ```
 
 <!-- ### **Explanation** -->
- 
 
-   
- 
+21. ### Day 1 Data Types
+
 ## [Day 1 Data Types](https://www.hackerrank.com/challenges/30-data-types/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -597,10 +539,9 @@ console.log(s + s2)
 ```
 
 <!-- ### **Explanation** -->
- 
 
-   
- 
+22. ### Day 11 2D Arrays
+
 ## [Day 11 2D Arrays](https://www.hackerrank.com/challenges/30-2d-arrays/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -650,10 +591,9 @@ function main() {
 	console.log(sumArray.sort((a, b) => b - a)[0])
 }
 ```
- 
 
-   
- 
+23. ### Day 12 Inheritance
+
 ## [Day 12 Inheritance](https://www.hackerrank.com/challenges/30-inheritance/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -744,10 +684,9 @@ function main() {
 	console.log('Grade: ' + s.calculate())
 }
 ```
- 
 
-   
- 
+24. ### Day 13 Abstract Classes
+
 ## [Day 13 Abstract Classes](https://www.hackerrank.com/challenges/30-abstract-classes/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -811,10 +750,9 @@ function main() {
 	book.display()
 }
 ```
- 
 
-   
- 
+25. ### Day 15 Linked List
+
 ## [Day 15 Linked List](https://www.hackerrank.com/challenges/30-linked-list/problem?isFullScreen=true&h_r=next-challenge&h_v=zen)
 
 ### **Answer:**
@@ -880,10 +818,9 @@ function main() {
 	mylist.display(head)
 }
 ```
- 
 
-   
- 
+26. ### Day 16 Exceptions - String to Integer
+
 ## [Day 16 Exceptions - String to Integer](https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -922,10 +859,9 @@ function main() {
 	}
 }
 ```
- 
 
-   
- 
+27. ### Day 2 Operators
+
 ## [Day 2 Operators](https://www.hackerrank.com/challenges/30-operators/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -941,10 +877,9 @@ solve(12.0, 20, 8)
 ```
 
 <!-- ### **Explanation** -->
- 
 
-   
- 
+28. ### Day 3 Intro to Conditional Statements
+
 ## [Day 3 Intro to Conditional Statements](https://www.hackerrank.com/challenges/30-conditional-statements/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -966,10 +901,9 @@ function main() {
 
 ```
 <!-- ### **Explanation** -->
- 
 
-   
- 
+29. ### Day 4 Class vs. Instance
+
 ## [Day 4 Class vs. Instance](https://www.hackerrank.com/challenges/30-class-vs-instance/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -998,10 +932,9 @@ function Person(initialAge) {
 ```
 
 <!-- ### **Explanation** -->
- 
 
-   
- 
+30. ### Day 5 Loops
+
 ## [Day 5 Loops](https://www.hackerrank.com/challenges/30-loops/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -1016,10 +949,9 @@ function main() {
 	}
 }
 ```
- 
 
-   
- 
+31. ### Day 6 Let's Review
+
 ## [Day 6 Let's Review](https://www.hackerrank.com/challenges/30-review-loop/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -1051,10 +983,9 @@ function processData(input) {
 	}
 }
 ```
- 
 
-   
- 
+32. ### Day 7 Arrays
+
 ## [Day 7: Arrays](https://www.hackerrank.com/challenges/30-arrays/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -1064,10 +995,9 @@ console.log(arr.reverse().join(' '))
 ```
 
 <!-- ### **Explanation** -->
- 
 
-   
- 
+33. ### Day 8 Dictionaries and Maps
+
 ## [Day 8 Dictionaries and Maps](https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -1099,10 +1029,9 @@ function processData(input) {
 processData('3\nsam 99912222\ntom 11122222\nharry 12299933\nsam\nedward\nharry')
 
 ```
- 
 
-   
- 
+34. ### Day 9 Recursion 3
+
 ## [Day 9 Recursion 3](https://www.hackerrank.com/challenges/30-recursion/problem?isFullScreen=true)
 
 ### **Answer:**
@@ -1118,10 +1047,9 @@ function factorial(n) {
 ```
 
 <!-- ### **Explanation** -->
- 
 
-   
- 
+35. ### Warm up Challenges Counting Valleys
+
 ## [Warm up Challenges Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
 
 ### **Answer:**
@@ -1143,10 +1071,9 @@ function countingValleys(steps, path) {
 }
 countingValleys(8, 'UDDDUDUU')
 ```
- 
 
-   
- 
+36. ### Warm up Challenges Sales by Match
+
 ## [Warm up Challenges Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
 
 ### **Answer:**
@@ -1197,10 +1124,9 @@ sockMerchant(6, [10, 20, 20, 10, 30, 1])
 ### **Explanation**
 
 n = 6 (number of socks) and ar = [10, 20, 20, 10, 30, 10] (socks colors) . The function must return 2 . Because there are 2 pairs of matching socks: one of each color. So first we create a hash table with the colors as keys and the values as true. Then we loop through the array and check if the color is in the hash table. If it is, we increment the number of pairs and delete the color from the hash table. If it's not, we add the color to the hash table.
- 
 
-   
- 
+37. ### Jumping on the Clouds
+
 ## [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
 
 ### **Answer:**
@@ -1222,10 +1148,9 @@ function jumpingOnClouds(c) {
 ```
 
 <!-- ### **Explanation** -->
- 
 
-   
- 
+38. ### Repeated String
+
 ## [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
 
 ### **Answer:**
@@ -1241,11 +1166,9 @@ function repeatedString(s, n) {
 ```
 
 <!-- ### **Explanation** -->
- 
 
-# leetcode
- 
- 
+39. ### 1920 Build Array from Permutation
+
 ## [1920 Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
 
 ### **Solution:**
@@ -1260,10 +1183,9 @@ var buildArray = function (nums) {
 	return newArray
 }
 ```
- 
 
-   
- 
+40. ### 1929. Concatenation of Array
+
 ## [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
 
 ### **Answer:**
@@ -1277,5 +1199,4 @@ var getConcatenation = function (nums) {
 	return nums.concat(nums)
 }
 ```
- 
 

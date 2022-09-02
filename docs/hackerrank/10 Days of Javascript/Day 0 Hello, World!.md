@@ -3,8 +3,6 @@ title: 10 Days of Javascript - Day 0 Hello, World!
 Problem: https://www.hackerrank.com/challenges/js10-objects/problem?isFullScreen=true
 ---
 
-## [Day 0: Hello, World!](https://www.hackerrank.com/challenges/js10-objects/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js

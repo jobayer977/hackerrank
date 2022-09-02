@@ -3,8 +3,6 @@ title: 10 Days of Javascript - Day 1 Functions
 Problem: https://www.hackerrank.com/challenges/js10-function/problem?isFullScreen=true
 ---
 
-## [Day 1 Functions](https://www.hackerrank.com/challenges/js10-function/problem?isFullScreen=true)
-
 ### **Answer:**
 
 ```js
