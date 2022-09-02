@@ -27,6 +27,7 @@
    - [Day 12 Inheritance](#day-12-inheritance)
    - [Day 13 Abstract Classes](#day-13-abstract-classes)
    - [Day 15 Linked List](#day-15-linked-list)
+   - [Day 16 Exceptions - String to Integer](#day-16-exceptions-string-to-integer)
    - [Day 2 Operators](#day-2-operators)
    - [Day 3 Intro to Conditional Statements](#day-3-intro-to-conditional-statements)
    - [Day 4 Class vs. Instance](#day-4-class-vs-instance)
@@ -864,6 +865,48 @@ function main() {
 		head = mylist.insert(head, data)
 	}
 	mylist.display(head)
+}
+```
+ 
+
+   
+ 
+## [Day 16 Exceptions - String to Integer](https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/problem?isFullScreen=true)
+
+### **Answer:**
+
+```js
+'use strict'
+
+process.stdin.resume()
+process.stdin.setEncoding('utf-8')
+
+let inputString = ''
+let currentLine = 0
+
+process.stdin.on('data', function (inputStdin) {
+	inputString += inputStdin
+})
+
+process.stdin.on('end', function () {
+	inputString = inputString.split('\n')
+
+	main()
+})
+
+function readLine() {
+	return inputString[currentLine++]
+}
+
+// Ignore above this line
+
+function main() {
+	try {
+		const S = readLine()
+		!isNaN(parseInt(S)) ? console.log(parseInt(S)) : x
+	} catch (e) {
+		console.log('Bad String')
+	}
 }
 ```
  
