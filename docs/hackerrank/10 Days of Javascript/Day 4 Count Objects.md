@@ -3,7 +3,7 @@ title: 10 Days of Javascript - Day 4 Count Objects
 Problem: https://www.hackerrank.com/challenges/js10-count-objects/problem?isFullScreen=true
 ---
 
-### **Answer:**
+### **Solution:**
 
 ```js
 function getCount(objects) {

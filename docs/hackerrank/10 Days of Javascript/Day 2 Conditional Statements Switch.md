@@ -3,7 +3,7 @@ title: 10 Days of Javascript - Day 2 Conditional Statements Switch
 Problem: https://www.hackerrank.com/challenges/js10-if-else/problem?isFullScreen=true
 ---
 
-### **Answer:**
+### **Solution:**
 
 ```js
 function getLetter(s) {

@@ -3,7 +3,7 @@ title: 10 Days of Javascript - Day 5 Inheritance
 Problem: https://www.hackerrank.com/challenges/js10-inheritance/problem?isFullScreen=true
 ---
 
-### **Answer:**
+### **Solution:**
 
 ```js
 class Rectangle {

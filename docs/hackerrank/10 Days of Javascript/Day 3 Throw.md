@@ -3,7 +3,7 @@ title: 10 Days of Javascript - Day 3 Throw
 Problem: https://www.hackerrank.com/challenges/js10-throw/problem?isFullScreen=true
 ---
 
-### **Answer:**
+### **Solution:**
 
 ```js
 function isPositive(a) {

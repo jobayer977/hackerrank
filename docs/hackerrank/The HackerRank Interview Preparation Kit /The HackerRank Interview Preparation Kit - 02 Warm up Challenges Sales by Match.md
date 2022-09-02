@@ -3,7 +3,7 @@ title: The HackerRank Interview Preparation Kit - 02 Warm up Challenges Sales by
 Problem: https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
 ---
 
-### **Answer:**
+### **Solution:**
 
 ```js
 function sockMerchant(n, ar) {

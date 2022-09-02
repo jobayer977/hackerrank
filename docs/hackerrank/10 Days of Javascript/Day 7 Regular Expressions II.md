@@ -3,7 +3,7 @@ title: 10 Days of Javascript - Day 7 Regular Expressions II
 Problem: https://www.hackerrank.com/challenges/js10-regexp-2/problem?isFullScreen=true
 ---
 
-### **Answer:**
+### **Solution:**
 
 ```js
 function regexVar() {

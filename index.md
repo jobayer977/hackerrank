@@ -3,7 +3,7 @@ title: xxxxxxxxxx
 Problem: yyyyyyyyyyyyyyyy
 ---
 
-### **Answer:**
+### **Solution:**
 
 ```js
 cccccccccccccccc

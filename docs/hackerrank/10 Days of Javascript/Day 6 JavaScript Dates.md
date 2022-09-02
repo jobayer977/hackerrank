@@ -3,7 +3,7 @@ title: 10 Days of Javascript - Day 6 JavaScript Dates
 Problem: https://www.hackerrank.com/challenges/js10-date/problem?isFullScreen=true
 ---
 
-### **Answer:**
+### **Solution:**
 
 ```js
 function getDayName(dateString) {
