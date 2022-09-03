@@ -1,4 +1,4 @@
-# Problem Solving 41+ 
+# Problem Solving 45+ 
 
  ## Table of Contents
 
@@ -29,6 +29,7 @@
    - [30 Days of Code - Day 13 Abstract Classes](#30-days-of-code-day-13-abstract-classes)
    - [30 Days of Code - Day 15 Linked List](#30-days-of-code-day-15-linked-list)
    - [30 Days of Code - Day 16 Exceptions - String to Integer](#30-days-of-code-day-16-exceptions-string-to-integer)
+   - [30 Days of Code - Day 17 More Exceptions](#30-days-of-code-day-17-more-exceptions)
    - [30 Days of Code - Day 2 Operators](#30-days-of-code-day-2-operators)
    - [30 Days of Code - Day 3 Intro to Conditional Statements](#30-days-of-code-day-3-intro-to-conditional-statements)
    - [30 Days of Code - Day 4 Class vs. Instance](#30-days-of-code-day-4-class-vs-instance)
@@ -42,9 +43,12 @@
    - [The HackerRank Interview Preparation Kit - 03 Jumping on the Clouds](#the-hackerrank-interview-preparation-kit-03-jumping-on-the-clouds)
    - [The HackerRank Interview Preparation Kit - 04 Repeated String](#the-hackerrank-interview-preparation-kit-04-repeated-string)
 - ### [leetcode](#leetcode)
+   - [Array - 1470. Shuffle the Array](#array-1470-shuffle-the-array)
    - [Array - 1480 Running Sum of 1d Array](#array-1480-running-sum-of-1d-array)
+   - [Array - 1672. Richest Customer Wealth](#array-1672-richest-customer-wealth)
    - [Array - 1920 Build Array from Permutation](#array-1920-build-array-from-permutation)
    - [Array - 1929 Concatenation of Array](#array-1929-concatenation-of-array)
+   - [Array - 2011. Final Value of Variable After Performing Operations](#array-2011-final-value-of-variable-after-performing-operations)
   <br/><br/><br/><br/> 
 
  # hackerrank
@@ -873,6 +877,59 @@ function main() {
 ```
  
 
+   ## [30 Days of Code - Day 17 More Exceptions](https://www.hackerrank.com/challenges/30-more-exceptions/problem?isFullScreen=true)
+ 
+**Solution:**
+
+```js
+process.stdin.resume()
+process.stdin.setEncoding('ascii')
+
+var input_stdin = ''
+var input_stdin_array = ''
+var input_currentline = 0
+
+process.stdin.on('data', function (data) {
+	input_stdin += data
+})
+
+process.stdin.on('end', function () {
+	input_stdin_array = input_stdin.split('\n')
+	main()
+})
+function readLine() {
+	return input_stdin_array[input_currentline++]
+}
+
+//Write your code here
+class Calculator {
+	power(n, p) {
+		if (n < 0 || p < 0) {
+			throw 'n and p should be non-negative'
+		} else {
+			return Math.pow(n, p)
+		}
+	}
+}
+
+function main() {
+	var myCalculator = new Calculator()
+	var T = parseInt(readLine())
+	while (T-- > 0) {
+		var num = readLine().split(' ')
+		try {
+			var n = parseInt(num[0])
+			var p = parseInt(num[1])
+			var ans = myCalculator.power(n, p)
+			console.log(ans)
+		} catch (e) {
+			console.log(e)
+		}
+	}
+}
+```
+ 
+
    ## [30 Days of Code - Day 2 Operators](https://www.hackerrank.com/challenges/30-operators/problem?isFullScreen=true)
  
 **Solution:**
@@ -1169,7 +1226,24 @@ function repeatedString(s, n) {
  
 
 # leetcode
- ## [Array - 1480 Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)
+ ## [Array - 1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)
+ 
+**Solution:**
+
+```js
+var shuffle = function (nums, n) {
+	const arr1 = nums.slice(0, n)
+	const arr2 = nums.slice(n, nums.length)
+	return arr1
+		.map((x, i) => {
+			return [x, arr2[i]]
+		})
+		.flat(1)
+}
+```
+ 
+
+   ## [Array - 1480 Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)
  
 **Solution:**
 
@@ -1184,6 +1258,18 @@ var runningSum = function (nums) {
 		arr.push(nums.slice(0, i + 1).reduce((acc, curr) => acc + curr, 0))
 	}
 	return arr
+}
+```
+ 
+
+   ## [Array - 1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
+ 
+**Solution:**
+
+```js
+var maximumWealth = function (accounts) {
+	const r = accounts.map((usr) => usr.reduce((acc, curr) => acc + curr, 0))
+	return Math.max(...r)
 }
 ```
  
@@ -1215,6 +1301,26 @@ var buildArray = function (nums) {
  */
 var getConcatenation = function (nums) {
 	return nums.concat(nums)
+}
+```
+ 
+
+   ## [Array - 2011. Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
+ 
+**Solution:**
+
+```js
+var finalValueAfterOperations = function (operations) {
+	let x = 0
+	for (let i = 0; i < operations.length; i++) {
+		const element = operations[i]
+		if (element.includes('--')) {
+			x--
+		} else if (element.includes('++')) {
+			x++
+		}
+	}
+	return x
 }
 ```
  
