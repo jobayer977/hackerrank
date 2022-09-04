@@ -1,4 +1,4 @@
-# Problem Solving 45+ 
+# Problem Solving 47+ 
 
  ## Table of Contents
 
@@ -45,10 +45,12 @@
 - ### [leetcode](#leetcode)
    - [Array - 1470. Shuffle the Array](#array-1470-shuffle-the-array)
    - [Array - 1480 Running Sum of 1d Array](#array-1480-running-sum-of-1d-array)
+   - [Array - 1512. Number of Good Pairs](#array-1512-number-of-good-pairs)
    - [Array - 1672. Richest Customer Wealth](#array-1672-richest-customer-wealth)
    - [Array - 1920 Build Array from Permutation](#array-1920-build-array-from-permutation)
    - [Array - 1929 Concatenation of Array](#array-1929-concatenation-of-array)
    - [Array - 2011. Final Value of Variable After Performing Operations](#array-2011-final-value-of-variable-after-performing-operations)
+   - [Array - 2114. Maximum Number of Words Found in Sentences](#array-2114-maximum-number-of-words-found-in-sentences)
   <br/><br/><br/><br/> 
 
  # hackerrank
@@ -1262,6 +1264,27 @@ var runningSum = function (nums) {
 ```
  
 
+   ## [Array - 1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs)
+ 
+**Solution:**
+
+```js
+var numIdenticalPairs = function (nums) {
+	let counter = 0
+	for (let i = 0; i < nums.length; i++) {
+		const iElement = nums[i]
+		for (let j = i + 1; j < nums.length; j++) {
+			const jElement = nums[j]
+			if (iElement === jElement) {
+				counter++
+			}
+		}
+	}
+	return counter
+}
+```
+ 
+
    ## [Array - 1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
  
 **Solution:**
@@ -1321,6 +1344,21 @@ var finalValueAfterOperations = function (operations) {
 		}
 	}
 	return x
+}
+```
+ 
+
+   ## [Array - 2114. Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)
+ 
+**Solution:**
+
+```js
+var mostWordsFound = function (sentences) {
+	return Math.max(
+		...sentences.map((x) => {
+			return x.split(' ').length
+		})
+	)
 }
 ```
  
