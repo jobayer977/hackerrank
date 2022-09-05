@@ -1,10 +1,13 @@
 /**
- * @param {number[]} nums
- * @return {number[]}
+ * @param {string} address
+ * @return {string}
  */
-var smallerNumbersThanCurrent = function (nums) {
-	const sorted = [...nums].sort((a, b) => a - b)
-	return nums.map((n) => sorted.indexOf(n))
+var defangIPaddr = function (address) {
+	return address.replace(/\./g, '[.]')
 }
-
-console.log(smallerNumbersThanCurrent([8, 1, 2, 2, 3]))
+var defangIPaddr = function (address) {
+	return address
+		.split('')
+		.map((x) => (x === '.' ? '[.]' : x))
+		.join('')
+}
