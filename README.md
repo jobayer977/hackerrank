@@ -1,4 +1,4 @@
-# Problem Solving 47+ 
+# Problem Solving 50+ 
 
  ## Table of Contents
 
@@ -30,6 +30,7 @@
    - [30 Days of Code - Day 15 Linked List](#30-days-of-code-day-15-linked-list)
    - [30 Days of Code - Day 16 Exceptions - String to Integer](#30-days-of-code-day-16-exceptions-string-to-integer)
    - [30 Days of Code - Day 17 More Exceptions](#30-days-of-code-day-17-more-exceptions)
+   - [30 Days of Code - Day 18 Queues and Stacks](#30-days-of-code-day-18-queues-and-stacks)
    - [30 Days of Code - Day 2 Operators](#30-days-of-code-day-2-operators)
    - [30 Days of Code - Day 3 Intro to Conditional Statements](#30-days-of-code-day-3-intro-to-conditional-statements)
    - [30 Days of Code - Day 4 Class vs. Instance](#30-days-of-code-day-4-class-vs-instance)
@@ -43,6 +44,8 @@
    - [The HackerRank Interview Preparation Kit - 03 Jumping on the Clouds](#the-hackerrank-interview-preparation-kit-03-jumping-on-the-clouds)
    - [The HackerRank Interview Preparation Kit - 04 Repeated String](#the-hackerrank-interview-preparation-kit-04-repeated-string)
 - ### [leetcode](#leetcode)
+   - [Array - 1365. How Many Numbers Are Smaller Than the Current Number](#array-1365-how-many-numbers-are-smaller-than-the-current-number)
+   - [Array - 1431. Kids With the Greatest Number of Candies](#array-1431-kids-with-the-greatest-number-of-candies)
    - [Array - 1470. Shuffle the Array](#array-1470-shuffle-the-array)
    - [Array - 1480 Running Sum of 1d Array](#array-1480-running-sum-of-1d-array)
    - [Array - 1512. Number of Good Pairs](#array-1512-number-of-good-pairs)
@@ -932,6 +935,34 @@ function main() {
 ```
  
 
+   ## [30 Days of Code - Day 18 Queues and Stacks](https://www.hackerrank.com/challenges/30-queues-stacks/problem?isFullScreen=true)
+ 
+**Solution:**
+
+```js
+function Solution() {
+	this.stack = []
+	this.queue = []
+}
+
+Solution.prototype.pushCharacter = function pushCharacter(char) {
+	this.stack.push(char)
+}
+
+Solution.prototype.enqueueCharacter = function enqueueCharacter(char) {
+	this.queue.push(char)
+}
+
+Solution.prototype.popCharacter = function popCharacter() {
+	return this.stack.pop()
+}
+
+Solution.prototype.dequeueCharacter = function dequeueCharacter() {
+	return this.queue.shift()
+}
+```
+ 
+
    ## [30 Days of Code - Day 2 Operators](https://www.hackerrank.com/challenges/30-operators/problem?isFullScreen=true)
  
 **Solution:**
@@ -1228,7 +1259,41 @@ function repeatedString(s, n) {
  
 
 # leetcode
- ## [Array - 1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)
+ ## [Array - 1365. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
+ 
+**Solution:**
+
+```js
+var smallerNumbersThanCurrent = function (nums) {
+	const sorted = [...nums].sort((a, b) => a - b)
+	return nums.map((n) => sorted.indexOf(n))
+}
+```
+
+**Explanation:**
+
+1. Sort the array in ascending order [9, 8, 7, 6, 5, 4, 3, 2, 1] to [1, 2, 3, 4, 5, 6, 7, 8, 9];
+2. And then use `indexOf` to find the index of each element in the sorted array
+ 
+
+   ## [Array - 1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
+ 
+**Solution:**
+
+```js
+var kidsWithCandies = function (candies, extraCandies) {
+	let max = Math.max(...candies)
+	return candies.map((candy) => candy + extraCandies >= max)
+}
+```
+
+**Explanation:**
+
+- Find the maximum number of candies
+- Then, for each kid, check if the kid has the maximum number of candies or not
+ 
+
+   ## [Array - 1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)
  
 **Solution:**
 
