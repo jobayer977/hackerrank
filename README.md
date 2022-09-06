@@ -1,4 +1,4 @@
-# Problem Solving 50+ 
+# Problem Solving 55+ 
 
  ## Table of Contents
 
@@ -54,6 +54,11 @@
    - [Array - 1929 Concatenation of Array](#array-1929-concatenation-of-array)
    - [Array - 2011. Final Value of Variable After Performing Operations](#array-2011-final-value-of-variable-after-performing-operations)
    - [Array - 2114. Maximum Number of Words Found in Sentences](#array-2114-maximum-number-of-words-found-in-sentences)
+   - [Strings - 1108. Defanging an IP Address](#strings-1108-defanging-an-ip-address)
+   - [Strings - 1678. Goal Parser Interpretation](#strings-1678-goal-parser-interpretation)
+   - [Strings - 2011. Final Value of Variable After Performing Operations](#strings-2011-final-value-of-variable-after-performing-operations)
+   - [Strings - 1108. Defanging an IP Address](#strings-1108-defanging-an-ip-address)
+   - [Strings - 771. Jewels and Stones](#strings-771-jewels-and-stones)
   <br/><br/><br/><br/> 
 
  # hackerrank
@@ -1424,6 +1429,93 @@ var mostWordsFound = function (sentences) {
 			return x.split(' ').length
 		})
 	)
+}
+```
+ 
+
+   ## [Strings - 1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
+ 
+**Solution:**
+
+```js
+var defangIPaddr = function (address) {
+	return address.replace(/\./g, '[.]')
+}
+```
+ 
+
+   ## [Strings - 1678. Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation)
+ 
+**Solution:**
+
+```js
+var interpret = function (command) {
+	command.split('').map((x) => {
+		command = command.replace('()', 'o')
+		command = command.replace('(al)', 'al')
+	})
+	return command
+}
+```
+ 
+
+   ## [Strings - 2011. Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)
+ 
+**Solution:**
+
+```js
+var finalValueAfterOperations = function (operations) {
+	let x = 0
+	for (let i = 0; i < operations.length; i++) {
+		const element = operations[i]
+		if (element.includes('--')) {
+			x--
+		} else if (element.includes('++')) {
+			x++
+		}
+	}
+	return x
+}
+```
+ 
+
+   ## [Strings - 1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
+ 
+**Solution:**
+
+```js
+var defangIPaddr = function (address) {
+	return address.replace(/\./g, '[.]')
+}
+```
+
+**Explanation:**
+Use the replace method to replace all the dots with `[.]`
+
+**Solution:**
+
+```js
+var defangIPaddr = function (address) {
+	return address
+		.split('')
+		.map((x) => (x === '.' ? '[.]' : x))
+		.join('')
+}
+```
+
+**Explanation:**
+Split the string into an array of characters, map each character to `[.]` if it is a dot, and join the array back into a string.
+ 
+
+   ## [Strings - 771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
+ 
+**Solution:**
+
+```js
+var numJewelsInStones = function (jewels, stones) {
+	let count = 0
+	stones.split('').map((x) => jewels.includes(x) && count++)
+	return count
 }
 ```
  
