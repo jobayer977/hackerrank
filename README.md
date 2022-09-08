@@ -1,4 +1,4 @@
-# Problem Solving 55+ 
+# Problem Solving 54+ 
 
  ## Table of Contents
 
@@ -44,20 +44,19 @@
    - [The HackerRank Interview Preparation Kit - 03 Jumping on the Clouds](#the-hackerrank-interview-preparation-kit-03-jumping-on-the-clouds)
    - [The HackerRank Interview Preparation Kit - 04 Repeated String](#the-hackerrank-interview-preparation-kit-04-repeated-string)
 - ### [leetcode](#leetcode)
+   - [Strings - 1108. Defanging an IP Address](#strings-1108-defanging-an-ip-address)
    - [Array - 1365. How Many Numbers Are Smaller Than the Current Number](#array-1365-how-many-numbers-are-smaller-than-the-current-number)
    - [Array - 1431. Kids With the Greatest Number of Candies](#array-1431-kids-with-the-greatest-number-of-candies)
    - [Array - 1470. Shuffle the Array](#array-1470-shuffle-the-array)
    - [Array - 1480 Running Sum of 1d Array](#array-1480-running-sum-of-1d-array)
    - [Array - 1512. Number of Good Pairs](#array-1512-number-of-good-pairs)
+   - [1656. Design an Ordered Stream](#1656-design-an-ordered-stream)
    - [Array - 1672. Richest Customer Wealth](#array-1672-richest-customer-wealth)
+   - [Strings - 1678. Goal Parser Interpretation](#strings-1678-goal-parser-interpretation)
    - [Array - 1920 Build Array from Permutation](#array-1920-build-array-from-permutation)
    - [Array - 1929 Concatenation of Array](#array-1929-concatenation-of-array)
    - [Array - 2011. Final Value of Variable After Performing Operations](#array-2011-final-value-of-variable-after-performing-operations)
    - [Array - 2114. Maximum Number of Words Found in Sentences](#array-2114-maximum-number-of-words-found-in-sentences)
-   - [Strings - 1108. Defanging an IP Address](#strings-1108-defanging-an-ip-address)
-   - [Strings - 1678. Goal Parser Interpretation](#strings-1678-goal-parser-interpretation)
-   - [Strings - 2011. Final Value of Variable After Performing Operations](#strings-2011-final-value-of-variable-after-performing-operations)
-   - [Strings - 1108. Defanging an IP Address](#strings-1108-defanging-an-ip-address)
    - [Strings - 771. Jewels and Stones](#strings-771-jewels-and-stones)
   <br/><br/><br/><br/> 
 
@@ -1264,7 +1263,18 @@ function repeatedString(s, n) {
  
 
 # leetcode
- ## [Array - 1365. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
+ ## [Strings - 1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
+ 
+**Solution:**
+
+```js
+var defangIPaddr = function (address) {
+	return address.replace(/\./g, '[.]')
+}
+```
+ 
+
+   ## [Array - 1365. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
  
 **Solution:**
 
@@ -1355,6 +1365,29 @@ var numIdenticalPairs = function (nums) {
 ```
  
 
+   ## [1656. Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream)
+ 
+**Solution:**
+
+```js
+var OrderedStream = function (n) {
+	this.size = 0
+	this.table = new Array(n)
+}
+
+OrderedStream.prototype.insert = function (idKey, value) {
+	this.table[idKey - 1] = value
+
+	let result = []
+	while (this.table[this.size] !== undefined) {
+		result.push(this.table[this.size])
+		this.size++
+	}
+	return result
+}
+```
+ 
+
    ## [Array - 1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
  
 **Solution:**
@@ -1363,6 +1396,21 @@ var numIdenticalPairs = function (nums) {
 var maximumWealth = function (accounts) {
 	const r = accounts.map((usr) => usr.reduce((acc, curr) => acc + curr, 0))
 	return Math.max(...r)
+}
+```
+ 
+
+   ## [Strings - 1678. Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation)
+ 
+**Solution:**
+
+```js
+var interpret = function (command) {
+	command.split('').map((x) => {
+		command = command.replace('()', 'o')
+		command = command.replace('(al)', 'al')
+	})
+	return command
 }
 ```
  
@@ -1431,80 +1479,6 @@ var mostWordsFound = function (sentences) {
 	)
 }
 ```
- 
-
-   ## [Strings - 1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
- 
-**Solution:**
-
-```js
-var defangIPaddr = function (address) {
-	return address.replace(/\./g, '[.]')
-}
-```
- 
-
-   ## [Strings - 1678. Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation)
- 
-**Solution:**
-
-```js
-var interpret = function (command) {
-	command.split('').map((x) => {
-		command = command.replace('()', 'o')
-		command = command.replace('(al)', 'al')
-	})
-	return command
-}
-```
- 
-
-   ## [Strings - 2011. Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)
- 
-**Solution:**
-
-```js
-var finalValueAfterOperations = function (operations) {
-	let x = 0
-	for (let i = 0; i < operations.length; i++) {
-		const element = operations[i]
-		if (element.includes('--')) {
-			x--
-		} else if (element.includes('++')) {
-			x++
-		}
-	}
-	return x
-}
-```
- 
-
-   ## [Strings - 1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
- 
-**Solution:**
-
-```js
-var defangIPaddr = function (address) {
-	return address.replace(/\./g, '[.]')
-}
-```
-
-**Explanation:**
-Use the replace method to replace all the dots with `[.]`
-
-**Solution:**
-
-```js
-var defangIPaddr = function (address) {
-	return address
-		.split('')
-		.map((x) => (x === '.' ? '[.]' : x))
-		.join('')
-}
-```
-
-**Explanation:**
-Split the string into an array of characters, map each character to `[.]` if it is a dot, and join the array back into a string.
  
 
    ## [Strings - 771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
