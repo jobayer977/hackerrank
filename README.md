@@ -1,4 +1,4 @@
-# Problem Solving 54+ 
+# Problem Solving 55+ 
 
  ## Table of Contents
 
@@ -57,6 +57,7 @@
    - [Array - 1929 Concatenation of Array](#array-1929-concatenation-of-array)
    - [Array - 2011. Final Value of Variable After Performing Operations](#array-2011-final-value-of-variable-after-performing-operations)
    - [Array - 2114. Maximum Number of Words Found in Sentences](#array-2114-maximum-number-of-words-found-in-sentences)
+   - [2325. Decode the Message](#2325-decode-the-message)
    - [Strings - 771. Jewels and Stones](#strings-771-jewels-and-stones)
   <br/><br/><br/><br/> 
 
@@ -1477,6 +1478,36 @@ var mostWordsFound = function (sentences) {
 			return x.split(' ').length
 		})
 	)
+}
+```
+ 
+
+   ## [2325. Decode the Message](https://leetcode.com/problems/decode-the-message)
+ 
+**Solution:**
+
+```js
+var decodeMessage = function (key, message) {
+	const alphabt = 'abcdefghijklmnopqrstuvwxyz'
+	const map = new Map()
+	key = [...new Set(key.split(''))].join('')
+	key = key.replace(/ /g, '')
+
+	for (let i = 0; i < alphabt.length; i++) {
+		map.set(key[i], alphabt[i])
+	}
+
+	let result = ''
+	for (let i = 0; i < message.length; i++) {
+		const key = message[i]
+		const value = map.get(key)
+		if (!value) {
+			result += ' '
+		} else {
+			result += value
+		}
+	}
+	return result
 }
 ```
  
