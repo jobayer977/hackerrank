@@ -1,8 +1,10 @@
-# Problem Solving 55+ 
+# Problem Solving 60+ 
 
  ## Table of Contents
 
- - ### [hackerrank](#hackerrank)
+ - ### [Questions](#questions)
+   - [what is hash map in javascript](#what-is-hash-map-in-javascript)
+- ### [hackerrank](#hackerrank)
    - [10 Days of Javascript - Day 0 Data Types](#10-days-of-javascript-day-0-data-types)
    - [10 Days of Javascript - Day 0 Hello, World!](#10-days-of-javascript-day-0-hello-world)
    - [10 Days of Javascript - Day 1 Arithmetic Operators](#10-days-of-javascript-day-1-arithmetic-operators)
@@ -44,6 +46,7 @@
    - [The HackerRank Interview Preparation Kit - 03 Jumping on the Clouds](#the-hackerrank-interview-preparation-kit-03-jumping-on-the-clouds)
    - [The HackerRank Interview Preparation Kit - 04 Repeated String](#the-hackerrank-interview-preparation-kit-04-repeated-string)
 - ### [leetcode](#leetcode)
+   - [1025. Divisor Game](#1025-divisor-game)
    - [Strings - 1108. Defanging an IP Address](#strings-1108-defanging-an-ip-address)
    - [Array - 1365. How Many Numbers Are Smaller Than the Current Number](#array-1365-how-many-numbers-are-smaller-than-the-current-number)
    - [Array - 1431. Kids With the Greatest Number of Candies](#array-1431-kids-with-the-greatest-number-of-candies)
@@ -53,15 +56,23 @@
    - [1656. Design an Ordered Stream](#1656-design-an-ordered-stream)
    - [Array - 1672. Richest Customer Wealth](#array-1672-richest-customer-wealth)
    - [Strings - 1678. Goal Parser Interpretation](#strings-1678-goal-parser-interpretation)
+   - [1859 Sorting the Sentence](#1859-sorting-the-sentence)
    - [Array - 1920 Build Array from Permutation](#array-1920-build-array-from-permutation)
    - [Array - 1929 Concatenation of Array](#array-1929-concatenation-of-array)
    - [Array - 2011. Final Value of Variable After Performing Operations](#array-2011-final-value-of-variable-after-performing-operations)
    - [Array - 2114. Maximum Number of Words Found in Sentences](#array-2114-maximum-number-of-words-found-in-sentences)
+   - [2160. Minimum Sum of Four Digit Number After Splitting Digits](#2160-minimum-sum-of-four-digit-number-after-splitting-digits)
    - [2325. Decode the Message](#2325-decode-the-message)
+   - [509. Fibonacci Number](#509-fibonacci-number)
    - [Strings - 771. Jewels and Stones](#strings-771-jewels-and-stones)
   <br/><br/><br/><br/> 
 
- # hackerrank
+ # Questions
+ ## [what is hash map in javascript](undefined)
+ 
+Hashtables and hashmaps are data structures that store data in an array-like format, using key/value pairs, where the (hashed) key corresponds to the index in the array. One of the primary benefits that a hashtable has over a hashmap is the native ability to handle synchronous updates 
+
+# hackerrank
  ## [10 Days of Javascript - Day 0 Data Types](https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true)
  
 **Solution:**
@@ -1264,7 +1275,18 @@ function repeatedString(s, n) {
  
 
 # leetcode
- ## [Strings - 1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
+ ## [1025. Divisor Game](https://leetcode.com/problems/divisor-game/)
+ 
+**Solution:**
+
+```js
+var divisorGame = function (n) {
+	return n % 2 === 0
+}
+```
+ 
+
+   ## [Strings - 1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
  
 **Solution:**
 
@@ -1416,6 +1438,21 @@ var interpret = function (command) {
 ```
  
 
+   ## [1859 Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/description/)
+ 
+**Solution:**
+
+```js
+var sortSentence = function (s) {
+	return s
+		.split(' ')
+		.sort((a, b) => a[a.length - 1] - b[b.length - 1])
+		.map((w) => w.slice(0, -1))
+		.join(' ')
+}
+```
+ 
+
    ## [Array - 1920 Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
  
 **Solution:**
@@ -1482,6 +1519,20 @@ var mostWordsFound = function (sentences) {
 ```
  
 
+   ## [2160. Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/description/)
+ 
+**Solution:**
+```js
+var minimumSum = function (num) {
+	let array = String(num).split('')
+	let sortedarray = array.sort()
+	return (
+		Number(sortedarray[0] + sortedarray[3]) +
+		Number(sortedarray[1] + sortedarray[2])
+	)
+}
+``` 
+
    ## [2325. Decode the Message](https://leetcode.com/problems/decode-the-message)
  
 **Solution:**
@@ -1508,6 +1559,18 @@ var decodeMessage = function (key, message) {
 		}
 	}
 	return result
+}
+```
+ 
+
+   ## [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number)
+ 
+**Solution:**
+
+```js
+var fib = function (n) {
+	if (n < 2) return n
+	return fib(n - 1) + fib(n - 2)
 }
 ```
  
