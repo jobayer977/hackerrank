@@ -1,4 +1,4 @@
-# Problem Solving 60+ 
+# Problem Solving 61+ 
 
  ## Table of Contents
 
@@ -63,6 +63,7 @@
    - [Array - 2114. Maximum Number of Words Found in Sentences](#array-2114-maximum-number-of-words-found-in-sentences)
    - [2160. Minimum Sum of Four Digit Number After Splitting Digits](#2160-minimum-sum-of-four-digit-number-after-splitting-digits)
    - [2325. Decode the Message](#2325-decode-the-message)
+   - [2418 Sort the People](#2418-sort-the-people)
    - [509. Fibonacci Number](#509-fibonacci-number)
    - [Strings - 771. Jewels and Stones](#strings-771-jewels-and-stones)
   <br/><br/><br/><br/> 
@@ -1559,6 +1560,18 @@ var decodeMessage = function (key, message) {
 		}
 	}
 	return result
+}
+```
+ 
+
+   ## [2418 Sort the People](https://leetcode.com/problems/sort-the-people/)
+ 
+**Solution:**
+
+```js
+var sortPeople = function (names, heights) {
+	const normalize = names.map((x, i) => ({ name: x, height: heights[i] }))
+	return normalize.sort((a, b) => b.height - a.height).map((x) => x.name)
 }
 ```
  
