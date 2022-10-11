@@ -1,4 +1,4 @@
-# Problem Solving 61+ 
+# Problem Solving 62+ 
 
  ## Table of Contents
 
@@ -48,6 +48,7 @@
 - ### [leetcode](#leetcode)
    - [1025. Divisor Game](#1025-divisor-game)
    - [Strings - 1108. Defanging an IP Address](#strings-1108-defanging-an-ip-address)
+   - [1221 Split a String in Balanced Strings](#1221-split-a-string-in-balanced-strings)
    - [Array - 1365. How Many Numbers Are Smaller Than the Current Number](#array-1365-how-many-numbers-are-smaller-than-the-current-number)
    - [Array - 1431. Kids With the Greatest Number of Candies](#array-1431-kids-with-the-greatest-number-of-candies)
    - [Array - 1470. Shuffle the Array](#array-1470-shuffle-the-array)
@@ -1294,6 +1295,31 @@ var divisorGame = function (n) {
 ```js
 var defangIPaddr = function (address) {
 	return address.replace(/\./g, '[.]')
+}
+```
+ 
+
+   ## [1221 Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)
+ 
+**Solution:**
+
+```js
+var balancedStringSplit = function (s) {
+	let count = 0
+	let result = 0
+	for (let i = 0; i < s.length; i++) {
+		if (s[i] === 'L') {
+			count++
+		} else {
+			count--
+		}
+		if (count === 0) {
+			result++
+		}
+
+		console.log({ count })
+	}
+	return result
 }
 ```
  
