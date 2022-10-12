@@ -1,23 +1,9 @@
 /**
- * @param {string} s
- * @return {number}
+ * @param {number} x
+ * @return {boolean}
  */
-var balancedStringSplit = function (s) {
-	let count = 0
-	let result = 0
-	for (let i = 0; i < s.length; i++) {
-		if (s[i] === 'L') {
-			count++
-		} else {
-			count--
-		}
-		if (count === 0) {
-			result++
-		}
-
-		console.log({ count })
-	}
-	return result
+var isPalindrome = function (x) {
+	return String(x).split('').reverse().join('') === String(x)
 }
 
-console.log(balancedStringSplit('RLRRLLRLRL'))
+console.log(isPalindrome(121))

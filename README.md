@@ -1,4 +1,4 @@
-# Problem Solving 62+ 
+# Problem Solving 63+ 
 
  ## Table of Contents
 
@@ -67,6 +67,7 @@
    - [2418 Sort the People](#2418-sort-the-people)
    - [509. Fibonacci Number](#509-fibonacci-number)
    - [Strings - 771. Jewels and Stones](#strings-771-jewels-and-stones)
+   - [9 Palindrome Number](#9-palindrome-number)
   <br/><br/><br/><br/> 
 
  # Questions
@@ -1623,6 +1624,17 @@ var numJewelsInStones = function (jewels, stones) {
 	let count = 0
 	stones.split('').map((x) => jewels.includes(x) && count++)
 	return count
+}
+```
+ 
+
+   ## [9 Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+ 
+**Solution:**
+
+```js
+var isPalindrome = function (x) {
+	return String(x).split('').reverse().join('') === String(x)
 }
 ```
  
