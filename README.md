@@ -2,9 +2,7 @@
 
  ## Table of Contents
 
- - ### [Questions](#questions)
-   - [what is hash map in javascript](#what-is-hash-map-in-javascript)
-- ### [hackerrank](#hackerrank)
+ - ### [hackerrank](#hackerrank)
    - [10 Days of Javascript - Day 0 Data Types](#10-days-of-javascript-day-0-data-types)
    - [10 Days of Javascript - Day 0 Hello, World!](#10-days-of-javascript-day-0-hello-world)
    - [10 Days of Javascript - Day 1 Arithmetic Operators](#10-days-of-javascript-day-1-arithmetic-operators)
@@ -57,6 +55,7 @@
    - [1656. Design an Ordered Stream](#1656-design-an-ordered-stream)
    - [Array - 1672. Richest Customer Wealth](#array-1672-richest-customer-wealth)
    - [Strings - 1678. Goal Parser Interpretation](#strings-1678-goal-parser-interpretation)
+   - [1832. Check if the Sentence Is Pangram](#1832-check-if-the-sentence-is-pangram)
    - [1859 Sorting the Sentence](#1859-sorting-the-sentence)
    - [Array - 1920 Build Array from Permutation](#array-1920-build-array-from-permutation)
    - [Array - 1929 Concatenation of Array](#array-1929-concatenation-of-array)
@@ -70,12 +69,7 @@
    - [9 Palindrome Number](#9-palindrome-number)
   <br/><br/><br/><br/> 
 
- # Questions
- ## [what is hash map in javascript](undefined)
- 
-Hashtables and hashmaps are data structures that store data in an array-like format, using key/value pairs, where the (hashed) key corresponds to the index in the array. One of the primary benefits that a hashtable has over a hashmap is the native ability to handle synchronous updates 
-
-# hackerrank
+ # hackerrank
  ## [10 Days of Javascript - Day 0 Data Types](https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true)
  
 **Solution:**
@@ -1463,6 +1457,27 @@ var interpret = function (command) {
 	})
 	return command
 }
+```
+ 
+
+   ## [1832. Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)
+ 
+**Solution:**
+
+```js
+/**
+ * @param {string} sentence
+ * @return {boolean}
+ */
+var checkIfPangram = function (sentence) {
+	const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+	for (let i = 0; i < alphabet.length; i++) {
+		if (!sentence.includes(alphabet[i])) {
+			return false;
+		}
+	}
+	return true;
+};
 ```
  
 
