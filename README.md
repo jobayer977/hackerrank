@@ -5,8 +5,6 @@
 <details>
 <summary>10 Days of Javascript - Day 0 Data Types</summary>
 
-**Solution:**
-
 ```js
 function performOperation(secondInteger, secondDecimal, secondString) {
 	const firstInteger = 4;
@@ -28,8 +26,6 @@ First we convert the secondInteger and secondDecimal to numbers using the Number
 <details>
 <summary>10 Days of Javascript - Day 0 Hello, World!</summary>
 
-**Solution:**
-
 ```js
 function greeting(parameterVariable) {
 	console.log('Hello, World!');
@@ -44,8 +40,6 @@ The first line of code prints 'Hello, World!' to the console. The second line of
 
 <details>
 <summary>10 Days of Javascript - Day 1 Arithmetic Operators</summary>
-
-**Solution:**
 
 ```js
 function getArea(length, width) {
@@ -68,8 +62,6 @@ We can get the area of a rectangle by multiplying the length by the width. The g
 <details>
 <summary>10 Days of Javascript - Day 1 Functions</summary>
 
-**Solution:**
-
 ```js
 function factorial(n) {
 	if (n === 1) {
@@ -90,8 +82,6 @@ The function is recursive. It calls itself until it reaches the base case. In th
 <details>
 <summary>10 Days of Javascript - Day 1 Let and Const</summary>
 
-**Solution:**
-
 ```js
 const PI = Math.PI;
 const r = readLine(); // 2.6
@@ -106,8 +96,6 @@ console.log(peri);
 
 <details>
 <summary>10 Days of Javascript - Day 2 Conditional Statements If-Else</summary>
-
-**Solution:**
 
 ```js
 function getGrade(score) {
@@ -135,8 +123,6 @@ function getGrade(score) {
 
 <details>
 <summary>10 Days of Javascript - Day 2 Conditional Statements Switch</summary>
-
-**Solution:**
 
 ```js
 function getLetter(s) {
@@ -186,8 +172,6 @@ The first character of the string is a, so we return A. The rest of the string i
 <details>
 <summary>10 Days of Javascript - Day 2 Loops</summary>
 
-**Solution:**
-
 ```js
 function vowelsAndConsonants(s) {
 	const vowelList = 'aeiouAEIOU';
@@ -209,8 +193,6 @@ function vowelsAndConsonants(s) {
 <details>
 <summary>10 Days of Javascript - Day 3 Arrays</summary>
 
-**Solution:**
-
 ```js
 function getSecondLargest(nums) {
 	let sortedNums = nums.sort((a, b) => a - b);
@@ -229,8 +211,6 @@ The largest number is 10, and the second largest number is 9. Therefore, return 
 
 <details>
 <summary>10 Days of Javascript - Day 3 Throw</summary>
-
-**Solution:**
 
 ```js
 function isPositive(a) {
@@ -253,8 +233,6 @@ The if statement checks if 'a' is greater than 0. If it is, the function returns
 <details>
 <summary>10 Days of Javascript - Day 3 Try, Catch, and Finally</summary>
 
-**Solution:**
-
 ```js
 function reverseString(s) {
 	try {
@@ -270,8 +248,6 @@ function reverseString(s) {
 
 <details>
 <summary>10 Days of Javascript - Day 4 Classes</summary>
-
-**Solution:**
 
 ```js
 class Polygon {
@@ -289,8 +265,6 @@ class Polygon {
 
 <details>
 <summary>10 Days of Javascript - Day 4 Count Objects</summary>
-
-**Solution:**
 
 ```js
 function getCount(objects) {
@@ -369,8 +343,6 @@ getCount(arr); // 2
 <details>
 <summary>10 Days of Javascript - Day 4 Create a Rectangle Object</summary>
 
-**Solution:**
-
 ```js
 function Rectangle(a, b) {
 	return {
@@ -386,8 +358,6 @@ function Rectangle(a, b) {
 
 <details>
 <summary>10 Days of Javascript - Day 5 Arrow Functions</summary>
-
-**Solution:**
 
 ```js
 function modifyArray(nums) {
@@ -408,8 +378,6 @@ console.log(modifyArray([1, 2, 3, 4, 5])); //  [3, 4, 9, 8, 15]
 
 <details>
 <summary>10 Days of Javascript - Day 5 Inheritance</summary>
-
-**Solution:**
 
 ```js
 class Rectangle {
@@ -439,8 +407,6 @@ class Square extends Rectangle {
 <details>
 <summary>10 Days of Javascript - Day 5 Template Literals</summary>
 
-**Solution:**
-
 ```js
 function sides(literals, ...expressions) {
 	const [a, p] = expressions;
@@ -454,8 +420,6 @@ function sides(literals, ...expressions) {
 
 <details>
 <summary>10 Days of Javascript - Day 6 JavaScript Dates</summary>
-
-**Solution:**
 
 ```js
 function getDayName(dateString) {
@@ -496,8 +460,6 @@ console.log(getDayName('10/11/2009')); // Sunday
 <details>
 <summary>10 Days of Javascript - Day 7 Regular Expressions II</summary>
 
-**Solution:**
-
 ```js
 function regexVar() {
 	return new RegExp(/^(Mr\.|Mrs\.|Ms\.|Dr\.|Er\.)[a-zA-Z]+$/);
@@ -510,8 +472,6 @@ function regexVar() {
 
 <details>
 <summary>30 Days of Code - Day 1 Data Types</summary>
-
-**Solution:**
 
 ```js
 var i2 = 0;
@@ -536,8 +496,6 @@ console.log(s + s2);
 <details>
 <summary>30 Days of Code - Day 1 Hello World</summary>
 
-**Solution:**
-
 ```js
 function processData(inputString) {
 	// This line of code prints the first line of output
@@ -556,8 +514,6 @@ processData('Welcome to 30 Days of Code!');
 
 <details>
 <summary>30 Days of Code - Day 11 2D Arrays</summary>
-
-**Solution:**
 
 ```js
 'use strict';
@@ -609,8 +565,6 @@ function main() {
 
 <details>
 <summary>30 Days of Code - Day 12 Inheritance</summary>
-
-**Solution:**
 
 ```js
 'use strict';
@@ -704,8 +658,6 @@ function main() {
 <details>
 <summary>30 Days of Code - Day 13 Abstract Classes</summary>
 
-**Solution:**
-
 ```js
 'use strict';
 
@@ -770,8 +722,6 @@ function main() {
 
 <details>
 <summary>30 Days of Code - Day 15 Linked List</summary>
-
-**Solution:**
 
 ```js
 process.stdin.resume();
@@ -840,8 +790,6 @@ function main() {
 <details>
 <summary>30 Days of Code - Day 16 Exceptions - String to Integer</summary>
 
-**Solution:**
-
 ```js
 'use strict';
 
@@ -881,8 +829,6 @@ function main() {
 
 <details>
 <summary>30 Days of Code - Day 17 More Exceptions</summary>
-
-**Solution:**
 
 ```js
 process.stdin.resume();
@@ -937,8 +883,6 @@ function main() {
 <details>
 <summary>30 Days of Code - Day 18 Queues and Stacks</summary>
 
-**Solution:**
-
 ```js
 function Solution() {
 	this.stack = [];
@@ -967,8 +911,6 @@ Solution.prototype.dequeueCharacter = function dequeueCharacter() {
 <details>
 <summary>30 Days of Code - Day 2 Operators</summary>
 
-**Solution:**
-
 ```js
 function solve(meal_cost, tip_percent, tax_percent) {
 	const tip = (tip_percent / 100) * meal_cost;
@@ -985,8 +927,6 @@ solve(12.0, 20, 8);
 
 <details>
 <summary>30 Days of Code - Day 3 Intro to Conditional Statements</summary>
-
-**Solution:**
 
 ```js
 function main() {
@@ -1010,8 +950,6 @@ function main() {
 
 <details>
 <summary>30 Days of Code - Day 4 Class vs. Instance</summary>
-
-**Solution:**
 
 ```js
 function Person(initialAge) {
@@ -1043,8 +981,6 @@ function Person(initialAge) {
 <details>
 <summary>30 Days of Code - Day 5 Loops</summary>
 
-**Solution:**
-
 ```js
 function main() {
 	const n = parseInt(readLine().trim(), 10);
@@ -1060,8 +996,6 @@ function main() {
 
 <details>
 <summary>30 Days of Code - Day 6 Let's Review</summary>
-
-**Solution:**
 
 **Input**
 
@@ -1096,8 +1030,6 @@ function processData(input) {
 <details>
 <summary>30 Days of Code - Day 7 Arrays</summary>
 
-**Solution:**
-
 ```js
 console.log(arr.reverse().join(' '));
 ```
@@ -1110,8 +1042,6 @@ console.log(arr.reverse().join(' '));
 <summary>30 Days of Code - Day 8 Dictionaries and Maps</summary>
 
 ## [Day 8 Dictionaries and Maps](https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem?isFullScreen=true)
-
-**Solution:**
 
 ```js
 function processData(input) {
@@ -1146,8 +1076,6 @@ processData(
 <details>
 <summary>30 Days of Code - Day 9 Recursion 3</summary>
 
-**Solution:**
-
 ```js
 function factorial(n) {
 	if (n == 1) {
@@ -1164,8 +1092,6 @@ function factorial(n) {
 
 <details>
 <summary>The HackerRank Interview Preparation Kit - 01 Warm up Challenges Counting Valleys</summary>
-
-**Solution:**
 
 ```js
 function countingValleys(steps, path) {
@@ -1189,8 +1115,6 @@ countingValleys(8, 'UDDDUDUU');
 
 <details>
 <summary>The HackerRank Interview Preparation Kit - 02 Warm up Challenges Sales by Match</summary>
-
-**Solution:**
 
 ```js
 function sockMerchant(n, ar) {
@@ -1244,8 +1168,6 @@ n = 6 (number of socks) and ar = [10, 20, 20, 10, 30, 10] (socks colors) . The f
 <details>
 <summary>The HackerRank Interview Preparation Kit - 03 Jumping on the Clouds</summary>
 
-**Solution:**
-
 ```js
 function jumpingOnClouds(c) {
 	let jumps = 0;
@@ -1269,8 +1191,6 @@ function jumpingOnClouds(c) {
 <details>
 <summary>The HackerRank Interview Preparation Kit - 04 Repeated String</summary>
 
-**Solution:**
-
 ```js
 function repeatedString(s, n) {
 	let occurances = s.split('a').length - 1;
@@ -1290,8 +1210,6 @@ function repeatedString(s, n) {
 <details>
 <summary>1025. Divisor Game</summary>
 
-**Solution:**
-
 ```js
 var divisorGame = function (n) {
 	return n % 2 === 0;
@@ -1303,8 +1221,6 @@ var divisorGame = function (n) {
 <details>
 <summary>Strings - 1108. Defanging an IP Address</summary>
 
-**Solution:**
-
 ```js
 var defangIPaddr = function (address) {
 	return address.replace(/\./g, '[.]');
@@ -1315,8 +1231,6 @@ var defangIPaddr = function (address) {
 
 <details>
 <summary>1221 Split a String in Balanced Strings</summary>
-
-**Solution:**
 
 ```js
 var balancedStringSplit = function (s) {
@@ -1343,8 +1257,6 @@ var balancedStringSplit = function (s) {
 <details>
 <summary>Array - 1365. How Many Numbers Are Smaller Than the Current Number</summary>
 
-**Solution:**
-
 ```js
 var smallerNumbersThanCurrent = function (nums) {
 	const sorted = [...nums].sort((a, b) => a - b);
@@ -1361,8 +1273,6 @@ var smallerNumbersThanCurrent = function (nums) {
 
 <details>
 <summary>Array - 1431. Kids With the Greatest Number of Candies</summary>
-
-**Solution:**
 
 ```js
 var kidsWithCandies = function (candies, extraCandies) {
@@ -1381,8 +1291,6 @@ var kidsWithCandies = function (candies, extraCandies) {
 <details>
 <summary>Array - 1470. Shuffle the Array</summary>
 
-**Solution:**
-
 ```js
 var shuffle = function (nums, n) {
 	const arr1 = nums.slice(0, n);
@@ -1399,8 +1307,6 @@ var shuffle = function (nums, n) {
 
 <details>
 <summary>Array - 1480 Running Sum of 1d Array</summary>
-
-**Solution:**
 
 ```js
 /**
@@ -1420,8 +1326,6 @@ var runningSum = function (nums) {
 
 <details>
 <summary>Array - 1512. Number of Good Pairs</summary>
-
-**Solution:**
 
 ```js
 var numIdenticalPairs = function (nums) {
@@ -1443,8 +1347,6 @@ var numIdenticalPairs = function (nums) {
 
 <details>
 <summary>1656. Design an Ordered Stream</summary>
-
-**Solution:**
 
 ```js
 var OrderedStream = function (n) {
@@ -1469,8 +1371,6 @@ OrderedStream.prototype.insert = function (idKey, value) {
 <details>
 <summary>Array - 1672. Richest Customer Wealth</summary>
 
-**Solution:**
-
 ```js
 var maximumWealth = function (accounts) {
 	const r = accounts.map((usr) => usr.reduce((acc, curr) => acc + curr, 0));
@@ -1482,8 +1382,6 @@ var maximumWealth = function (accounts) {
 
 <details>
 <summary>Strings - 1678. Goal Parser Interpretation</summary>
-
-**Solution:**
 
 ```js
 var interpret = function (command) {
@@ -1499,8 +1397,6 @@ var interpret = function (command) {
 
 <details>
 <summary>1832. Check if the Sentence Is Pangram</summary>
-
-**Solution:**
 
 ```js
 /**
@@ -1523,8 +1419,6 @@ var checkIfPangram = function (sentence) {
 <details>
 <summary>1859 Sorting the Sentence</summary>
 
-**Solution:**
-
 ```js
 var sortSentence = function (s) {
 	return s
@@ -1539,8 +1433,6 @@ var sortSentence = function (s) {
 
 <details>
 <summary>Array - 1920 Build Array from Permutation</summary>
-
-**Solution:**
 
 ```js
 var buildArray = function (nums) {
@@ -1558,8 +1450,6 @@ var buildArray = function (nums) {
 <details>
 <summary>Array - 1929 Concatenation of Array</summary>
 
-**Solution:**
-
 ```js
 /**
  * @param {number[]} nums
@@ -1574,8 +1464,6 @@ var getConcatenation = function (nums) {
 
 <details>
 <summary>Array - 2011. Final Value of Variable After Performing Operations</summary>
-
-**Solution:**
 
 ```js
 var finalValueAfterOperations = function (operations) {
@@ -1597,8 +1485,6 @@ var finalValueAfterOperations = function (operations) {
 <details>
 <summary>Array - 2114. Maximum Number of Words Found in Sentences</summary>
 
-**Solution:**
-
 ```js
 var mostWordsFound = function (sentences) {
 	return Math.max(
@@ -1613,8 +1499,6 @@ var mostWordsFound = function (sentences) {
 
 <details>
 <summary>2160. Minimum Sum of Four Digit Number After Splitting Digits</summary>
-
-**Solution:**
 
 ```js
 var minimumSum = function (num) {
@@ -1631,8 +1515,6 @@ var minimumSum = function (num) {
 
 <details>
 <summary>2325. Decode the Message</summary>
-
-**Solution:**
 
 ```js
 var decodeMessage = function (key, message) {
@@ -1664,8 +1546,6 @@ var decodeMessage = function (key, message) {
 <details>
 <summary>2418 Sort the People</summary>
 
-**Solution:**
-
 ```js
 var sortPeople = function (names, heights) {
 	const normalize = names.map((x, i) => ({ name: x, height: heights[i] }));
@@ -1677,8 +1557,6 @@ var sortPeople = function (names, heights) {
 
 <details>
 <summary>2529 Maximum Count of Positive Integer and Negative Integer</summary>
-
-**Solution:**
 
 ```js
 var maximumCount = function (nums) {
@@ -1705,8 +1583,6 @@ var maximumCount = function (nums) {
 <details>
 <summary>509. Fibonacci Number</summary>
 
-**Solution:**
-
 ```js
 var fib = function (n) {
 	if (n < 2) return n;
@@ -1718,8 +1594,6 @@ var fib = function (n) {
 
 <details>
 <summary>Strings - 771. Jewels and Stones</summary>
-
-**Solution:**
 
 ```js
 var numJewelsInStones = function (jewels, stones) {
@@ -1733,8 +1607,6 @@ var numJewelsInStones = function (jewels, stones) {
 
 <details>
 <summary>9 Palindrome Number</summary>
-
-**Solution:**
 
 ```js
 var isPalindrome = function (x) {
